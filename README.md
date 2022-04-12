@@ -20,9 +20,8 @@ In this setup, Ruitor, Neo4j DB and Gaspar are expected to be installed on the s
 - Copy this repository:
 
 ```bash
-git clone https://gricad-gitlab.univ-grenoble-alpes.fr/genoudph/choucas \
-  && cd choucas \
-  && git checkout sprint-code-2020
+git clone https://github.com/ANRChoucas/GASPAR/ \
+  && cd GASPAR
 ```
 
 - Set up a Python virtual environment:
@@ -106,9 +105,8 @@ In this setup, Gaspar will be running in a Docker container and Neo4j DB and Rui
 - Copy this repository:
 
 ```bash
-git clone https://gricad-gitlab.univ-grenoble-alpes.fr/genoudph/choucas \
-  && cd choucas \
-  && git checkout sprint-code-2020
+git clone https://github.com/ANRChoucas/GASPAR/ \
+  && cd GASPAR
 ```
 
 - Actually build the container:
