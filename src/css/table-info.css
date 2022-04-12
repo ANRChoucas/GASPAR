@@ -1,0 +1,38 @@
+table.table-info {
+  border-spacing: 0px;
+  border-radius: 4px;
+}
+
+table.table-info td {
+  vertical-align: top;
+  min-width: 100px;
+  max-width: 260px;
+  color: black;
+  height: 17px;
+  padding: 3px;
+}
+
+table.table-info > tbody > tr:nth-child(even) {
+  background: #c8d1d3;
+}
+
+table.table-info > tbody > tr:nth-child(odd) {
+  background: #b5ebfa;
+}
+
+table.table-info td.field-name {
+  color: #535050;
+  padding-right: 7px;
+  font-weight: normal;
+  min-width: 60px;
+  max-width: 260px;
+}
+
+table.table-info .field-value {
+  outline: none;
+  word-wrap: break-word;
+}
+
+.toast-close {
+  opacity: 1;
+}

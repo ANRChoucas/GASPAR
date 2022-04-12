@@ -1,0 +1,12 @@
+aiohttp == 3.6.2
+cchardet == 2.1.5
+geojsoncontour == 0.4.0
+geopandas == 0.6.1
+idna == 2.8
+matplotlib === 3.1.2
+neo4j == 4.2.0
+pandas == 1.4.1
+rasterio == 1.1.2
+shapely == 1.7.0
+spacy >= 3
+uvloop == 0.14.0 ; platform_system == "Linux"

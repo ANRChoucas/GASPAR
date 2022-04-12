@@ -1,0 +1,147 @@
+@media screen {
+  .export-container {
+    height: 100%;
+    display: flex;
+    font-size: 0.9em;
+  }
+
+  .export-card {
+    width: 1350px;
+    margin: auto;
+  }
+
+  .export-body {
+    text-align: initial;
+    display: grid;
+    grid-template-columns: 25% 70%;
+  }
+
+  .export-info {
+    margin: 15px 20px;
+  }
+
+  .info{
+    overflow-y: auto;
+    height: 280px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .export-map {
+    padding: 10px;
+  }
+
+  .export-carte{
+    width: 100%;
+    height:
+  }
+
+  .export-legend {
+    width: 950px;
+  }
+
+  #export-clues_legend {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: space-around;
+    grid-gap: 10px;
+    overflow-y: auto;
+    height: 65px;
+  }
+
+  #export-div_map > .ol-scale-line {
+    position: absolute;
+    bottom: inherit;
+    left: 355px !important;
+  }
+
+  .export-map_scale {
+    display: none;
+  }
+
+  #export-logoChoucas {
+    display: none;
+  }
+}
+
+@media print {
+  @page {
+    size: landscape;
+    marks: none;
+    margin: 0.5cm;
+  };
+
+  .export-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .export-card {
+    width: 100%;
+  }
+  .card {
+    border: inherit;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .export-body {
+    text-align: initial;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    margin: auto;
+  }
+
+  .export-info {
+    font-size: 10pt;
+  }
+
+  .export-map {
+    padding: 0.5cm;
+    margin-left: 0.5cm;
+    font-size: 10pt;
+  }
+
+  #export-clues_legend {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-around;
+    grid-gap: 0.2cm;
+  }
+
+  #export-div_map > .ol-scale-line {
+    display: none;
+  }
+
+  .export-map_scale {
+    display: block;
+  }
+  .export-map_scale > span {
+    border: 1px solid rgb(0,60,136);
+    border-top: none;
+    color: rgb(0,60,136);
+    padding: 1px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #export-logoChoucas {
+    display: block;
+    position: absolute;
+    top: 0.5cm;
+    left: 6cm;
+    height: 1.5cm;
+  }
+
+  #menuBar, #main, .swal-overlay,
+  .card-header, .card-footer {
+    display: none !important;
+  };
+}

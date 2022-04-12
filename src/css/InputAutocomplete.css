@@ -1,0 +1,46 @@
+.autocomplete-input-container input {
+    border: 3px solid #64889c;
+    -webkit-box-shadow: inset 0 0 8px  rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 0 8px  rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 8px  rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+.autocomplete-input-container .searchTwo {
+    position: absolute;
+    z-index: 11;
+    width: 395px;
+}
+.autocomplete-input-container .autocomplete {
+    position: absolute;
+    z-index: 10;
+    width: 395px;
+}
+.autocomplete-input-container .container-suggestion {
+    position: absolute;
+    width: 395px;
+    top: 138px;
+    z-index: 10;
+    background-color: white;
+}
+.autocomplete-input-container .container-suggestion > .list-suggestion > li {
+    padding: 6px 1px;
+    width: 100%;
+    padding-inline-start: 20px;
+    border-bottom: solid 1px grey;
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    text-align: left;
+    cursor: pointer;
+}
+.autocomplete-input-container .container-suggestion > .list-suggestion {
+    list-style: none;
+    padding-inline-start: 0px;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: unset;
+}
+.autocomplete-input-container .container-suggestion > .list-suggestion > li .badge {
+    margin: 4px 1px 0 1px;
+    float: right;
+}

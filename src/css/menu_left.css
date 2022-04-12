@@ -1,0 +1,207 @@
+/* Left Menu styles */
+#menuLeft {
+  min-width: 430px !important;
+  max-width: 650px !important;
+  border-right: 1px solid #DDDDDD;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.top-box {
+  padding-top: 12.5px;
+}
+
+.bottom-box {
+  padding-top: 12.5px;
+  border-top: solid 1px lightgray;
+}
+
+.menuflex {
+  height: calc(100% - 15px);
+  display: flex;
+  flex-direction: column;
+}
+
+.menuflex .pretty .state label,
+.menuflex #victim_infos label,
+.menuflex #clues_header label,
+.tree-title > label  {
+  text-indent: 10px;
+}
+
+.menuflex hr {
+  margin: 0.5rem 0;
+}
+
+#victim_infos {
+  cursor: pointer;
+}
+
+#victim_infos > .fa::before {
+  padding: 10px;
+}
+
+#victim_infos label {
+  cursor: pointer;
+}
+
+/* Styles for Initial Search Area section */
+.isa_set, .isa_unset {
+  cursor: pointer;
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 2px auto 6px auto;
+}
+/*
+#use_current_bbox, .isa_unset {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin: 2px auto 6px auto;
+}
+#delete_current_zone, .isa_set {
+  cursor: pointer;
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 2px auto 6px auto;
+}
+*/
+.state > .fa-check-circle {
+  color: #0bc81b !important;
+  font-size: 1em;
+}
+.state > .fa-times-circle {
+  color: #d22374 !important;
+  font-size: 1em;
+}
+
+.menu-toggle {
+  pointer-events: none;
+  width: 95%;
+  margin: auto;
+}
+
+.menu-toggle > .state.p-on {
+  width: 100%;
+}
+
+.surface-display {
+  float: right;
+  font-size: 0.9em;
+  font-style: italic;
+}
+/* End of styles for Initial Search Area section */
+
+/* Styles for clue section and zlp section */
+#clues_zones {
+  margin: 2px 1px 1px 1px;
+  border: solid 1px lightgray;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.hypothesis-table {
+  min-width: 53px;
+}
+.hypothesis-entry {
+  display: inline-block;
+  margin: auto;
+}
+
+.hypothesis-entry > input {
+  vertical-align: middle;
+}
+
+table.clue-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.clue-table td {
+  border: solid 1px black;
+  padding: 2px 3px;
+  cursor: pointer;
+}
+
+.clue-table th {
+  background-color: lightgray;
+  border: solid 1px black;
+  padding: 2px 3px;
+}
+.clue-table .hypothesis-title {
+  border-bottom: solid 1px black;
+}
+
+.clue-table tbody > tr:nth-of-type(odd) {
+  background-color: #c9d4e1cf;
+}
+
+.clue-table > tbody > tr:only-child {
+  display: none;
+}
+
+.clue-table .display-section {
+  align-items: center;
+}
+
+.clue-table .display-section .fa-draw-polygon {
+  vertical-align: middle;
+  color: #616060;
+}
+
+.clue-table .display-section .fa-draw-polygon.disabled {
+  color: #cdcccc;
+}
+
+#zlp_zone {
+  margin: 2px 1px 1px 1px;
+  padding: 2px;
+  border: solid 1px lightgray;
+  overflow: auto;
+}
+
+#zlp_zone > ul.inner_list > li {
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.85em;
+  padding: 2px;
+}
+
+#zlp_zone > ul.inner_list {
+  margin: 0 0 0;
+  list-style: none;
+  padding: 2px;
+}
+
+#zlp_zone .zlp-content {
+  flex-grow: 0.9;
+  border-right: solid 1px black;
+}
+
+#zlp_zone i.fa-circle {
+  vertical-align: middle;
+  filter: opacity(0.2);
+}
+
+#zlp_zone i.fa-circle.visible {
+  vertical-align: middle;
+  filter: opacity(1);
+}
+
+#zlp_zone .switch-visibility-zlp {
+  flex-grow: 0.1;
+  max-width: 72px;
+}
+
+input[name="zlp-hypothesis"] {
+  vertical-align: middle;
+}
+/* End of styles for clue section */
+

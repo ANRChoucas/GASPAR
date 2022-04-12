@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "gaspar-location-relation.schema.json",
+  "title": "Relation de Localisation [oac#RelationDeLocalisation]",
+  "description": "Description d'une relation de localisation, utilisé pour la création des indices",
+  "type": "object",
+  "properties": {
+    "type_relation": {
+      "description": "Type de relation de localisation décrite par le requérant",
+      "title": "Type de relation de localisation [oac#a_type -> oac#TypeIndice]",
+      "type": "string",
+      "pattern": "^(Voir|Entendre|Proximité immédiate|Ombre / Soleil)$"
+    },
+    "site": {
+      "description": "",
+      "title": "Le *site* de la relation de localisation [oac#a_site]",
+      "type": "string",
+      "pattern": "^victim_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "target": {
+      "description": "",
+      "title": "La *cible* de la relation de localisation [oac#a_cible]",
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "pattern": "^(ESC|ESR)$"
+        },
+        "category": {
+          "type": "string"
+        },
+        "feature": {
+          "$ref": "https://geojson.org/schema/Feature.json"
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "$ref": "https://geojson.org/schema/Feature.json"
+          }
+        }
+      }
+    },
+    "service_options": {
+      "description": "Options relatives au service utilisé pour chaque type de relation spatiale",
+      "title": "Options relatives au service / type de relation spatiale",
+      "type": "object",
+      "properties": {
+        "distance_to_object": {
+          "description": "Distance séparant la victime de l'object (-> Proximite)",
+          "title": "Distance par rapport à l'objet",
+          "type": "number"
+        },
+        "uncertainty": {
+          "description": "Rayon d'incertitude concernant la localisation de la victime (-> Proximité immédiate)",
+          "title": "Rayon d'incertitude",
+          "type": "number"
+        },
+        "distance_maximum": {
+          "description": "Distance au-delà de laquelle ne pas calculer l'intervisibilité (-> Voir)",
+          "title": "Portée maximum",
+          "type": "number"
+        },
+        "type_zone": {
+          "description": "Le type de zone dans laquelle est la victime, parmi ombre ou soleil (-> Ombre / Soleil)",
+          "title": "Type de la zone",
+          "type": "string",
+          "pattern": "^(ombre|soleil)$"
+        },
+        "datetime": {
+          "description": "Moment auquel calculer la zone d'ensoillement (-> Ombre / Soleil)",
+          "title": "Date",
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "required": ["type_relation", "site", "target"]
+}

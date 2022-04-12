@@ -1,0 +1,35 @@
+.lm-MenuBar {
+    border-bottom: 1px solid #DDDDDD;
+    font: 16px Helvetica, Arial, sans-serif;
+}
+
+.lm-MenuBar-item {
+  padding: 6px 10px;
+}
+
+.lm-Menu-itemLabel {
+    padding: 6px 35px 6px 2px;
+}
+
+.lm-MenuBar-menu {
+  left: 0px !important;
+  width: 100%;
+}
+
+.lm-MenuBar-menu > ul {
+  display: inline-flex;
+}
+
+.lm-Menu {
+  font: 15px Helvetica, Arial, sans-serif;
+}
+
+.lm-Menu-content .fa, .lm-Menu-content .fas {
+  font-weight: normal !important;
+  display: table-cell !important;
+}
+
+.lm-Menu-itemShortcut {
+  font-size: 0.9em;
+  color: dimgray;
+}

@@ -1,0 +1,32 @@
+.whiteboard-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_logging_area {
+  margin: auto;
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding: 4px;
+}
+
+.menu_logs_title {
+  text-align: center;
+}
+
+.inner_logging_area {
+  background: black;
+  color: white;
+  padding: 5px;
+  border: solid 2px darkgrey;
+  border-radius: 2%;
+  height: auto;
+}
+
+.menu_logs_radio {
+  display: flex;
+}
+
+.menu_logs_radio > div {
+  margin: auto;
+}
