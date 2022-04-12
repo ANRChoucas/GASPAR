@@ -1,0 +1,3955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2018-07-12T13:04:02Z"/>
+
+  <node id="26686589" lat="45.1821510" lon="5.7274722">
+    <tag k="addr:postcode" v="38000;38100"/>
+    <tag k="capital" v="6"/>
+    <tag k="name" v="Grenoble"/>
+    <tag k="name:be" v="Грэнобль"/>
+    <tag k="name:el" v="Γκρενόμπλ"/>
+    <tag k="name:hi" v="ग्रेनोब्ल"/>
+    <tag k="name:hu" v="Grenoble"/>
+    <tag k="name:ja" v="グルノーブル"/>
+    <tag k="name:kn" v="ಗ್ರೇನೋಬ್ಲ್"/>
+    <tag k="name:la" v="Cularone"/>
+    <tag k="name:lb" v="Grenobel"/>
+    <tag k="name:lt" v="Grenoblis"/>
+    <tag k="name:oc" v="Grenoble"/>
+    <tag k="name:ru" v="Гренобль"/>
+    <tag k="name:sr" v="Гренобл"/>
+    <tag k="name:uk" v="Гренобль"/>
+    <tag k="place" v="city"/>
+    <tag k="population" v="155637"/>
+    <tag k="ref:FR:SIREN" v="213801855"/>
+    <tag k="ref:INSEE" v="38185"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q1289"/>
+    <tag k="wikipedia" v="fr:Grenoble"/>
+  </node>
+  <node id="26691404" lat="45.1437000" lon="5.7192700">
+    <tag k="addr:postcode" v="38130"/>
+    <tag k="name" v="Échirolles"/>
+    <tag k="name:ru" v="Эшироль"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="35748"/>
+    <tag k="ref:FR:SIREN" v="213801517"/>
+    <tag k="ref:INSEE" v="38151"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q211134"/>
+    <tag k="wikipedia" v="fr:Échirolles"/>
+  </node>
+  <node id="26691472" lat="45.2325079" lon="5.6817810">
+    <tag k="addr:postcode" v="38120"/>
+    <tag k="name" v="Saint-Égrève"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="15900"/>
+    <tag k="ref:FR:SIREN" v="213803828"/>
+    <tag k="ref:INSEE" v="38382"/>
+    <tag k="wikidata" v="Q1069745"/>
+  </node>
+  <node id="26691717" lat="45.1950183" lon="5.6869624">
+    <tag k="addr:postcode" v="38600"/>
+    <tag k="name" v="Fontaine"/>
+    <tag k="phone" v="+33 6 611852 63"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="22243"/>
+    <tag k="ref:FR:SIREN" v="213801699"/>
+    <tag k="ref:INSEE" v="38169"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="website" v="http://gitedetapefontainegrenoble.com"/>
+    <tag k="wikidata" v="Q838235"/>
+    <tag k="wikipedia" v="fr:Fontaine (Isère)"/>
+  </node>
+  <node id="26691919" lat="45.1790768" lon="5.6899617">
+    <tag k="addr:postcode" v="38170"/>
+    <tag k="name" v="Seyssinet-Pariset"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="12113"/>
+    <tag k="ref:FR:SIREN" v="213804859"/>
+    <tag k="ref:INSEE" v="38485"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q1081604"/>
+    <tag k="wikipedia" v="fr:Seyssinet-Pariset"/>
+  </node>
+  <node id="26692144" lat="45.1236837" lon="5.6978136">
+    <tag k="addr:postcode" v="38800"/>
+    <tag k="loc_name" v="Pont-de-Claix"/>
+    <tag k="name" v="Le Pont-de-Claix"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="11268"/>
+    <tag k="ref:FR:SIREN" v="213803174"/>
+    <tag k="ref:INSEE" v="38317"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26692364" lat="45.3698807" lon="5.5851632">
+    <tag k="addr:postcode" v="38500"/>
+    <tag k="name" v="Voiron"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="19893"/>
+    <tag k="ref:FR:SIREN" v="213805633"/>
+    <tag k="ref:INSEE" v="38563"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q238205"/>
+  </node>
+  <node id="26694356" lat="45.0885562" lon="5.6825158">
+    <tag k="addr:postcode" v="38760"/>
+    <tag k="name" v="Varces-Allières-et-Risset"/>
+    <tag k="old_name" v="Varces"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6330"/>
+    <tag k="ref:FR:SIREN" v="213805245"/>
+    <tag k="ref:INSEE" v="38524"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694407" lat="45.3876320" lon="5.7344662">
+    <tag k="addr:postcode" v="38380"/>
+    <tag k="name" v="Saint-Laurent-du-Pont"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="4484"/>
+    <tag k="ref:FR:SIREN" v="213804123"/>
+    <tag k="ref:INSEE" v="38412"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694615" lat="45.2439121" lon="5.6320571">
+    <tag k="addr:postcode" v="38360"/>
+    <tag k="name" v="Noyarey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2390"/>
+    <tag k="ref:FR:SIREN" v="213802812"/>
+    <tag k="ref:INSEE" v="38281"/>
+    <tag k="source:population" v="INSEE 2014 en vigueur au 01/01/2017 http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/commune.asp?depcom=38281"/>
+  </node>
+  <node id="26694642" lat="45.3986000" lon="5.4150500">
+    <tag k="addr:postcode" v="38690"/>
+    <tag k="name" v="Le Grand-Lemps"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2940"/>
+    <tag k="ref:FR:SIREN" v="213801822"/>
+    <tag k="ref:INSEE" v="38182"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694657" lat="45.3398756" lon="5.3440159">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="Saint-Étienne-de-Saint-Geoirs"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2917"/>
+    <tag k="ref:FR:SIREN" v="213803844"/>
+    <tag k="ref:INSEE" v="38384"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694764" lat="45.3558251" lon="5.6160020">
+    <tag k="addr:postcode" v="38500"/>
+    <tag k="name" v="Coublevie"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="4296"/>
+    <tag k="ref:FR:SIREN" v="213801335"/>
+    <tag k="ref:INSEE" v="38133"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694895" lat="45.3934726" lon="6.0744406">
+    <tag k="addr:postcode" v="38580"/>
+    <tag k="name" v="Allevard"/>
+    <tag k="official_name" v="Allevard-les-Bains"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3783"/>
+    <tag k="ref:FR:SIREN" v="213800063"/>
+    <tag k="ref:INSEE" v="38006"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694897" lat="45.2151366" lon="5.8603962">
+    <tag k="addr:postcode" v="38420"/>
+    <tag k="name" v="Le Versoud"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="4566"/>
+    <tag k="ref:FR:SIREN" v="213805385"/>
+    <tag k="ref:INSEE" v="38538"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26694905" lat="45.1524000" lon="5.7481200">
+    <tag k="addr:postcode" v="38320"/>
+    <tag k="name" v="Eybens"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="9944"/>
+    <tag k="ref:FR:SIREN" v="213801582"/>
+    <tag k="ref:INSEE" v="38158"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695058" lat="45.2013065" lon="5.8388954">
+    <tag k="addr:postcode" v="38420"/>
+    <tag k="name" v="Domène"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6626"/>
+    <tag k="ref:FR:SIREN" v="213801509"/>
+    <tag k="ref:INSEE" v="38150"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695106" lat="45.2088706" lon="5.7055996">
+    <tag k="addr:postcode" v="38950"/>
+    <tag k="name" v="Saint-Martin-le-Vinoux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="5357"/>
+    <tag k="ref:FR:SIREN" v="213804230"/>
+    <tag k="ref:INSEE" v="38423"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695114" lat="45.0554868" lon="5.6690330">
+    <tag k="addr:postcode" v="38450"/>
+    <tag k="name" v="Vif"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="8053"/>
+    <tag k="ref:FR:SIREN" v="213805450"/>
+    <tag k="ref:INSEE" v="38545"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695140" lat="45.2264498" lon="5.8026600">
+    <tag k="addr:postcode" v="38330"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Blason_Montbonnot_St_Martin.svg"/>
+    <tag k="name" v="Montbonnot-Saint-Martin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="4651"/>
+    <tag k="ref:FR:SIREN" v="213802499"/>
+    <tag k="ref:INSEE" v="38249"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q1068817"/>
+    <tag k="wikimedia_commons" v="Category:Montbonnot-Saint-Martin"/>
+    <tag k="wikipedia" v="fr:Montbonnot-Saint-Martin"/>
+  </node>
+  <node id="26695261" lat="45.3782404" lon="5.6473505">
+    <tag k="addr:postcode" v="38960"/>
+    <tag k="name" v="Saint-Étienne-de-Crossey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2545"/>
+    <tag k="ref:FR:SIREN" v="213803836"/>
+    <tag k="ref:INSEE" v="38383"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695485" lat="45.2066078" lon="5.6629992">
+    <tag k="addr:postcode" v="38360"/>
+    <tag k="name" v="Sassenage"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="11473"/>
+    <tag k="ref:FR:SIREN" v="213804743"/>
+    <tag k="ref:INSEE" v="38474"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695524" lat="45.3319670" lon="5.4865278">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Renage"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3717"/>
+    <tag k="ref:FR:SIREN" v="213803323"/>
+    <tag k="ref:INSEE" v="38332"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695575" lat="45.1200404" lon="5.6729013">
+    <tag k="addr:postcode" v="38640"/>
+    <tag k="name" v="Claix"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="7538"/>
+    <tag k="ref:INSEE" v="38111"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695761" lat="45.0547130" lon="6.0306625">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="name" v="Le Bourg-d'Oisans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3327"/>
+    <tag k="ref:INSEE" v="38052"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26695780" lat="45.3259232" lon="5.5654672">
+    <tag k="addr:postcode" v="38430"/>
+    <tag k="name" v="Moirans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="7780"/>
+    <tag k="ref:FR:SIREN" v="213802390"/>
+    <tag k="ref:INSEE" v="38239"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696015" lat="45.2693836" lon="5.8664744">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Bernin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2991"/>
+    <tag k="ref:FR:SIREN" v="213800394"/>
+    <tag k="ref:INSEE" v="38039"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696117" lat="45.0771440" lon="5.7299870">
+    <tag k="addr:postcode" v="38560"/>
+    <tag k="name" v="Champ-sur-Drac"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3136"/>
+    <tag k="ref:FR:SIREN" v="213800717"/>
+    <tag k="ref:INSEE" v="38071"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696273" lat="45.1198654" lon="5.8129345">
+    <tag k="addr:postcode" v="38410"/>
+    <tag k="name" v="Vaulnaveys-le-Haut"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3533"/>
+    <tag k="ref:INSEE" v="38529"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696354" lat="45.3333031" lon="5.6203141">
+    <tag k="addr:postcode" v="38500"/>
+    <tag k="name" v="La Buisse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2814"/>
+    <tag k="ref:FR:SIREN" v="213800618"/>
+    <tag k="ref:INSEE" v="38061"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696403" lat="45.3992601" lon="5.5024920">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Apprieu"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3108"/>
+    <tag k="ref:FR:SIREN" v="213800139"/>
+    <tag k="ref:INSEE" v="38013"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696599" lat="45.3501289" lon="5.5047411">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Rives"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6062"/>
+    <tag k="ref:FR:SIREN" v="213803372"/>
+    <tag k="ref:INSEE" v="38337"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696892" lat="45.3592324" lon="5.9515976">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="name" v="Le Touvet"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2977"/>
+    <tag k="ref:FR:SIREN" v="213805112"/>
+    <tag k="ref:INSEE" v="38511"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26696968" lat="45.2979933" lon="5.6364011">
+    <tag k="addr:postcode" v="38340"/>
+    <tag k="name" v="Voreppe"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="9847"/>
+    <tag k="ref:FR:SIREN" v="213805658"/>
+    <tag k="ref:INSEE" v="38565"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697164" lat="45.2556949" lon="5.6654815">
+    <tag k="addr:postcode" v="38120"/>
+    <tag k="name" v="Fontanil-Cornillon"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2818"/>
+    <tag k="ref:FR:SIREN" v="213801707"/>
+    <tag k="ref:INSEE" v="38170"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697199" lat="45.2731570" lon="5.9244034">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Froges"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3435"/>
+    <tag k="ref:FR:SIREN" v="213801756"/>
+    <tag k="ref:INSEE" v="38175"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697376" lat="45.0705366" lon="5.5515360">
+    <tag k="addr:postcode" v="38250"/>
+    <tag k="name" v="Villard-de-Lans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="4034"/>
+    <tag k="ref:FR:SIREN" v="213805484"/>
+    <tag k="ref:INSEE" v="38548"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697385" lat="45.3739679" lon="6.0450811">
+    <tag k="addr:postcode" v="38830"/>
+    <tag k="name" v="Saint-Pierre-d'Allevard"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2799"/>
+    <tag k="ref:FR:SIREN" v="213804396"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697433" lat="45.1053965" lon="5.7485905">
+    <tag k="addr:postcode" v="38560"/>
+    <tag k="name" v="Jarrie"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3853"/>
+    <tag k="ref:FR:SIREN" v="213802002"/>
+    <tag k="ref:INSEE" v="38200"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697565" lat="45.2977714" lon="5.4829748">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Tullins"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="7663"/>
+    <tag k="ref:FR:SIREN" v="213805179"/>
+    <tag k="ref:INSEE" v="38517"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697573" lat="45.2384678" lon="5.8882101">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Villard-Bonnot"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="7296"/>
+    <tag k="ref:FR:SIREN" v="213805476"/>
+    <tag k="ref:INSEE" v="38547"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697618" lat="45.2481677" lon="5.8261521">
+    <tag k="addr:postcode" v="38330"/>
+    <tag k="name" v="Saint-Ismier"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6381"/>
+    <tag k="ref:FR:SIREN" v="213803976"/>
+    <tag k="ref:INSEE" v="38397"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697620" lat="45.1588858" lon="5.7593656">
+    <tag k="addr:postcode" v="38320"/>
+    <tag k="name" v="Poisat"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2078"/>
+    <tag k="ref:FR:SIREN" v="213803091"/>
+    <tag k="ref:INSEE" v="38309"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697838" lat="45.2098594" lon="5.4021207">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Vinay"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="4070"/>
+    <tag k="ref:FR:SIREN" v="213805591"/>
+    <tag k="ref:INSEE" v="38559"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697964" lat="45.0758358" lon="5.7715863">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Vizille"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="7630"/>
+    <tag k="ref:FR:SIREN" v="213805625"/>
+    <tag k="ref:INSEE" v="38562"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26697973" lat="45.3410803" lon="5.5818425">
+    <tag k="addr:postcode" v="38430"/>
+    <tag k="name" v="Saint-Jean-de-Moirans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3090"/>
+    <tag k="ref:FR:SIREN" v="213804008"/>
+    <tag k="ref:INSEE" v="38400"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26698111" lat="45.1593057" lon="5.6878134">
+    <tag k="addr:postcode" v="38180"/>
+    <tag k="name" v="Seyssins"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6913"/>
+    <tag k="ref:FR:SIREN" v="213804867"/>
+    <tag k="ref:INSEE" v="38486"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26698202" lat="45.2090131" lon="5.7457150">
+    <tag k="addr:postcode" v="38700"/>
+    <tag k="name" v="La Tronche"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6232"/>
+    <tag k="ref:FR:SIREN" v="213805161"/>
+    <tag k="ref:INSEE" v="38516"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26698205" lat="45.1507233" lon="5.8383075">
+    <tag k="addr:postcode" v="38410"/>
+    <tag k="name" v="Saint-Martin-d'Uriage"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="5446"/>
+    <tag k="ref:FR:SIREN" v="213804222"/>
+    <tag k="ref:INSEE" v="38422"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26698304" lat="45.2196806" lon="5.7617836">
+    <tag k="addr:postcode" v="38700"/>
+    <tag k="name" v="Corenc"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="3851"/>
+    <tag k="ref:FR:SIREN" v="213801269"/>
+    <tag k="ref:INSEE" v="38126"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26698523" lat="45.2845907" lon="5.8839432">
+    <tag k="addr:postcode" v="38920"/>
+    <tag k="description" v="Capitale culturelle de la France"/>
+    <tag k="name" v="Crolles"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="8451"/>
+    <tag k="ref:FR:SIREN" v="213801400"/>
+    <tag k="ref:INSEE" v="38140"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q579807"/>
+    <tag k="wikipedia" v="fr:Crolles"/>
+  </node>
+  <node id="26698575" lat="45.1821235" lon="5.7893224">
+    <tag k="addr:postcode" v="38610"/>
+    <tag k="name" v="Gières"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="6118"/>
+    <tag k="ref:FR:SIREN" v="213801798"/>
+    <tag k="ref:INSEE" v="38179"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26698605" lat="45.2375922" lon="5.7965125">
+    <tag k="addr:postcode" v="38330"/>
+    <tag k="name" v="Biviers"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2360"/>
+    <tag k="ref:FR:SIREN" v="213800451"/>
+    <tag k="ref:INSEE" v="38045"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="26862616" lat="45.3927778" lon="6.0377778">
+    <tag k="ele" v="1210"/>
+    <tag k="name" v="Brame Farine"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="26862779" lat="45.3082229" lon="5.8555566">
+    <tag k="ele" v="2062"/>
+    <tag k="name" v="Dent de Crolles"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q729243"/>
+    <tag k="wikipedia" v="fr:Dent de Crolles"/>
+  </node>
+  <node id="26863018" lat="45.3704545" lon="5.8120021">
+    <tag k="ele" v="2026"/>
+    <tag k="name" v="Le Grand Som"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q2782043"/>
+    <tag k="wikipedia" v="fr:Grand Som"/>
+  </node>
+  <node id="26863520" lat="44.9819478" lon="5.9344417">
+    <tag k="ele" v="2792"/>
+    <tag k="name" v="Le Grand Armet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3113506"/>
+  </node>
+  <node id="26863529" lat="45.2346628" lon="5.7102326">
+    <tag k="ele" v="1298"/>
+    <tag k="name" v="Le Néron"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3347188"/>
+    <tag k="wikipedia" v="fr:Néron (Isère)"/>
+  </node>
+  <node id="26863532" lat="44.9769219" lon="5.8554099">
+    <tag k="ele" v="2389"/>
+    <tag k="name" v="Le Tabor"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="26863773" lat="44.9918610" lon="5.7245036">
+    <tag k="ele" v="1711"/>
+    <tag k="name" v="La Peyrouse"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3377869"/>
+  </node>
+  <node id="26864228" lat="45.1377652" lon="6.1355776">
+    <tag k="description" v="Borne SGA - Point vu en place en 1983"/>
+    <tag k="ele" v="3465.45"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Pic Bayle"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3811203 - 1"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ;mise à jour : 2009;©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3811203"/>
+    <tag k="wikidata" v="Q3382285"/>
+  </node>
+  <node id="26864271" lat="45.0072189" lon="6.0961107">
+    <tag k="ele" v="2338"/>
+    <tag k="name" v="Pied Moutet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="26864344" lat="44.9755607" lon="6.0330526">
+    <tag k="created_by" v="Potlatch 0.10f"/>
+    <tag k="ele" v="3049"/>
+    <tag k="name" v="Pointe de Malhaubert"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="26864466" lat="45.3352569" lon="5.7029086">
+    <tag k="ele" v="1920"/>
+    <tag k="name" v="La Grande Sure"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="coordonnées+alti relevées au GPS (précision 5m)"/>
+    <tag k="wikidata" v="Q3115031"/>
+    <tag k="wikipedia" v="fr:Grande Sure"/>
+  </node>
+  <node id="26864747" lat="45.1686389" lon="5.9881723">
+    <tag k="ele" v="2926"/>
+    <tag k="name" v="Croix de Belledonne"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q3003298"/>
+    <tag k="wikipedia" v="fr:Croix de Belledonne"/>
+  </node>
+  <node id="33155967" lat="44.9354489" lon="5.4316198">
+    <tag k="addr:postcode" v="26420"/>
+    <tag k="name" v="Saint-Agnan-en-Vercors"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="378"/>
+    <tag k="ref:FR:SIREN" v="212602908"/>
+    <tag k="ref:INSEE" v="26290"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="33155973" lat="44.9681874" lon="5.4161361">
+    <tag k="addr:postcode" v="26420"/>
+    <tag k="name" v="La Chapelle-en-Vercors"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="675"/>
+    <tag k="ref:FR:SIREN" v="212600746"/>
+    <tag k="ref:INSEE" v="26074"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="33155981" lat="45.0216044" lon="5.4428431">
+    <tag k="addr:postcode" v="26420"/>
+    <tag k="name" v="Saint-Martin-en-Vercors"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="396"/>
+    <tag k="ref:FR:SIREN" v="212603153"/>
+    <tag k="ref:INSEE" v="26315"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="33155986" lat="45.0482826" lon="5.3390411">
+    <tag k="addr:postcode" v="26190"/>
+    <tag k="name" v="Sainte-Eulalie-en-Royans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="549"/>
+    <tag k="ref:FR:SIREN" v="212603021"/>
+    <tag k="ref:INSEE" v="26302"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="33155987" lat="45.0502203" lon="5.4493797">
+    <tag k="addr:postcode" v="26420"/>
+    <tag k="name" v="Saint-Julien-en-Vercors"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="226"/>
+    <tag k="ref:FR:SIREN" v="212603096"/>
+    <tag k="ref:INSEE" v="26309"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054961" lat="45.1310892" lon="6.0369453">
+    <tag k="addr:postcode" v="38114"/>
+    <tag k="alt_name" v="Allemond"/>
+    <tag k="name" v="Allemont"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="871"/>
+    <tag k="ref:INSEE" v="38005"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054972" lat="45.0473896" lon="6.0941290">
+    <tag k="addr:postcode" v="38142"/>
+    <tag k="name" v="Le Grand-Châtain"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="207"/>
+    <tag k="ref:INSEE" v="38020"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054973" lat="45.1760000" lon="5.5441500">
+    <tag k="addr:postcode" v="38880"/>
+    <tag k="name" v="Autrans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1702"/>
+    <tag k="ref:FR:SIREN" v="213800212"/>
+    <tag k="ref:INSEE" v="38021"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054974" lat="44.9546841" lon="5.6857167">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Avignonet"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="214"/>
+    <tag k="ref:FR:SIREN" v="213800238"/>
+    <tag k="ref:INSEE" v="38023"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054980" lat="45.1925411" lon="5.3920415">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Beaulieu"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="626"/>
+    <tag k="ref:FR:SIREN" v="213800337"/>
+    <tag k="ref:INSEE" v="38033"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054982" lat="45.1205383" lon="5.3374745">
+    <tag k="addr:postcode" v="38160"/>
+    <tag k="name" v="Beauvoir-en-Royans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="74"/>
+    <tag k="ref:FR:SIREN" v="213800360"/>
+    <tag k="ref:INSEE" v="38036"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054985" lat="45.0714767" lon="6.1698600">
+    <tag k="addr:postcode" v="38142"/>
+    <tag k="name" v="Besse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="142"/>
+    <tag k="ref:INSEE" v="38040"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054987" lat="45.3954000" lon="5.3910500">
+    <tag k="addr:postcode" v="38690"/>
+    <tag k="name" v="Bévenais"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="928"/>
+    <tag k="ref:FR:SIREN" v="213800428"/>
+    <tag k="ref:INSEE" v="38042"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34054998" lat="45.1374486" lon="5.7475831">
+    <tag k="addr:postcode" v="38320"/>
+    <tag k="name" v="Bresson"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="692"/>
+    <tag k="ref:FR:SIREN" v="213800576"/>
+    <tag k="ref:INSEE" v="38057"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055000" lat="45.1128816" lon="5.7853698">
+    <tag k="addr:postcode" v="38320"/>
+    <tag k="name" v="Brié-et-Angonnes"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2416"/>
+    <tag k="ref:FR:SIREN" v="213800592"/>
+    <tag k="ref:INSEE" v="38059"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055001" lat="45.2932000" lon="5.3376100">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="Brion"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="130"/>
+    <tag k="ref:FR:SIREN" v="213800600"/>
+    <tag k="ref:INSEE" v="38060"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055006" lat="45.1099000" lon="5.7282700">
+    <tag k="addr:postcode" v="38800"/>
+    <tag k="name" v="Champagnier"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1256"/>
+    <tag k="ref:FR:SIREN" v="213800683"/>
+    <tag k="ref:INSEE" v="38068"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055010" lat="44.9860000" lon="5.9694200">
+    <tag k="addr:postcode" v="38740"/>
+    <tag k="name" v="Chantelouve"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="76"/>
+    <tag k="ref:FR:SIREN" v="213800733"/>
+    <tag k="ref:INSEE" v="38073"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055011" lat="45.2428000" lon="5.4446600">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Chantesse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="315"/>
+    <tag k="ref:FR:SIREN" v="213800741"/>
+    <tag k="ref:INSEE" v="38074"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055017" lat="45.3434957" lon="5.5275601">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Charnècles"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1481"/>
+    <tag k="ref:FR:SIREN" v="213800840"/>
+    <tag k="ref:INSEE" v="38084"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055018" lat="45.2569000" lon="5.3369200">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Chasselay"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="431"/>
+    <tag k="ref:FR:SIREN" v="213800865"/>
+    <tag k="ref:INSEE" v="38086"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055020" lat="44.9755000" lon="5.5770500">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Château-Bernard"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="280"/>
+    <tag k="ref:FR:SIREN" v="213800907"/>
+    <tag k="ref:INSEE" v="38090"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055022" lat="45.0561000" lon="5.3731800">
+    <tag k="addr:postcode" v="38680"/>
+    <tag k="name" v="Châtelus"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="87"/>
+    <tag k="ref:FR:SIREN" v="213800923"/>
+    <tag k="ref:INSEE" v="38092"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055031" lat="45.4138000" lon="5.5566100">
+    <tag k="addr:postcode" v="38850"/>
+    <tag k="name" v="Chirens"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2197"/>
+    <tag k="ref:FR:SIREN" v="213801053"/>
+    <tag k="ref:INSEE" v="38105"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055032" lat="45.0037009" lon="5.7966420">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Cholonge"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="322"/>
+    <tag k="ref:FR:SIREN" v="213801061"/>
+    <tag k="ref:INSEE" v="38106"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055034" lat="45.0671000" lon="5.3919100">
+    <tag k="addr:postcode" v="38680"/>
+    <tag k="name" v="Choranche"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="131"/>
+    <tag k="ref:FR:SIREN" v="213801087"/>
+    <tag k="ref:INSEE" v="38108"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055037" lat="45.0833170" lon="6.1626171">
+    <tag k="addr:postcode" v="38142"/>
+    <tag k="name" v="Clavans-le-Haut"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="113"/>
+    <tag k="ref:INSEE" v="38112"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055040" lat="45.1708262" lon="5.4110040">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Cognin-les-Gorges"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="656"/>
+    <tag k="ref:FR:SIREN" v="213801178"/>
+    <tag k="ref:INSEE" v="38117"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055041" lat="45.3978000" lon="5.4491200">
+    <tag k="addr:postcode" v="38690"/>
+    <tag k="name" v="Colombe"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1439"/>
+    <tag k="ref:FR:SIREN" v="213801186"/>
+    <tag k="ref:INSEE" v="38118"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055047" lat="45.0318150" lon="5.5272737">
+    <tag k="addr:postcode" v="38250"/>
+    <tag k="name" v="Corrençon-en-Vercors"/>
+    <tag k="old_name" v="Corrençon"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="359"/>
+    <tag k="ref:FR:SIREN" v="213801293"/>
+    <tag k="ref:INSEE" v="38129"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055051" lat="45.2682000" lon="5.4487900">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Cras"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="467"/>
+    <tag k="ref:FR:SIREN" v="213801376"/>
+    <tag k="ref:INSEE" v="38137"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055060" lat="45.1805425" lon="5.6168148">
+    <tag k="addr:postcode" v="38360"/>
+    <tag k="name" v="Engins"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="496"/>
+    <tag k="ref:FR:SIREN" v="213801533"/>
+    <tag k="ref:INSEE" v="38153"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055084" lat="45.3426289" lon="5.9780213">
+    <tag k="addr:postcode" v="38570"/>
+    <tag k="ele" v="280"/>
+    <tag k="name" v="Goncelin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2334"/>
+    <tag k="ref:FR:SIREN" v="213801814"/>
+    <tag k="ref:INSEE" v="38181"/>
+    <tag k="source:population" v="INSEE 2015"/>
+  </node>
+  <node id="34055088" lat="45.1390486" lon="5.7930880">
+    <tag k="addr:postcode" v="38320"/>
+    <tag k="name" v="Herbeys"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1343"/>
+    <tag k="ref:FR:SIREN" v="213801889"/>
+    <tag k="ref:INSEE" v="38188"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055090" lat="45.0820855" lon="6.0596448">
+    <tag k="addr:postcode" v="38750"/>
+    <tag k="name" v="Huez"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1368"/>
+    <tag k="ref:INSEE" v="38191"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055091" lat="45.2881000" lon="5.9689100">
+    <tag k="addr:postcode" v="38570"/>
+    <tag k="name" v="Hurtières"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="176"/>
+    <tag k="ref:FR:SIREN" v="213801921"/>
+    <tag k="ref:INSEE" v="38192"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055092" lat="45.3326583" lon="5.4285680">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Izeaux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2111"/>
+    <tag k="ref:FR:SIREN" v="213801947"/>
+    <tag k="ref:INSEE" v="38194"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055093" lat="45.1470589" lon="5.3749509">
+    <tag k="addr:postcode" v="38160"/>
+    <tag k="name" v="Izeron"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="776"/>
+    <tag k="ref:FR:SIREN" v="213801954"/>
+    <tag k="ref:INSEE" v="38195"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055097" lat="45.2239000" lon="5.4409700">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="L'Albenc"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1091"/>
+    <tag k="ref:FR:SIREN" v="213800048"/>
+    <tag k="ref:INSEE" v="38004"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055101" lat="45.4010000" lon="5.9779300">
+    <tag k="addr:postcode" v="38530"/>
+    <tag k="name" v="La Buissière"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="663"/>
+    <tag k="ref:FR:SIREN" v="213800626"/>
+    <tag k="ref:INSEE" v="38062"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055105" lat="45.2256285" lon="5.8995138">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="La Combe-de-Lancey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="705"/>
+    <tag k="ref:FR:SIREN" v="213801202"/>
+    <tag k="ref:INSEE" v="38120"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055106" lat="45.3199000" lon="6.0868600">
+    <tag k="addr:postcode" v="38580"/>
+    <tag k="name" v="La Ferrière"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="228"/>
+    <tag k="ref:FR:SIREN" v="213801632"/>
+    <tag k="ref:INSEE" v="38163"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055107" lat="45.3966000" lon="5.9621200">
+    <tag k="addr:postcode" v="38530"/>
+    <tag k="name" v="La Flachère"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="446"/>
+    <tag k="ref:FR:SIREN" v="213801665"/>
+    <tag k="ref:INSEE" v="38166"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055108" lat="45.2947696" lon="5.4031755">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="La Forteresse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="297"/>
+    <tag k="ref:FR:SIREN" v="213801715"/>
+    <tag k="ref:INSEE" v="38171"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055109" lat="45.3890000" lon="5.3586600">
+    <tag k="addr:postcode" v="38260"/>
+    <tag k="name" v="La Frette"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1085"/>
+    <tag k="ref:FR:SIREN" v="213801749"/>
+    <tag k="ref:INSEE" v="38174"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055110" lat="45.0691999" lon="6.0449399">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="alt_name" v="La Garde-en-Oisans"/>
+    <tag k="name" v="La Garde"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="114"/>
+    <tag k="ref:INSEE" v="38177"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="website" v="http://www.lagardeenoisans.com/"/>
+  </node>
+  <node id="34055111" lat="45.0313973" lon="5.8536932">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="La Morte"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="156"/>
+    <tag k="ref:FR:SIREN" v="213802648"/>
+    <tag k="ref:INSEE" v="38264"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055112" lat="44.9624037" lon="5.7452701">
+    <tag k="addr:postcode" v="38770"/>
+    <tag k="name" v="La Motte-d'Aveillans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1794"/>
+    <tag k="ref:FR:SIREN" v="213802655"/>
+    <tag k="ref:INSEE" v="38265"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055113" lat="44.9487088" lon="5.7189041">
+    <tag k="addr:postcode" v="38770"/>
+    <tag k="name" v="La Motte-Saint-Martin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="413"/>
+    <tag k="ref:INSEE" v="38266"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055114" lat="45.3798000" lon="5.5420900">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="La Murette"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1795"/>
+    <tag k="ref:FR:SIREN" v="213802705"/>
+    <tag k="ref:INSEE" v="38270"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055115" lat="45.2942000" lon="5.9473400">
+    <tag k="addr:postcode" v="38570"/>
+    <tag k="name" v="La Pierre"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="428"/>
+    <tag k="ref:FR:SIREN" v="213803034"/>
+    <tag k="ref:INSEE" v="38303"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055116" lat="45.2378724" lon="5.5073053">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="La Rivière"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="637"/>
+    <tag k="ref:FR:SIREN" v="213803380"/>
+    <tag k="ref:INSEE" v="38338"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055131" lat="45.3240258" lon="5.9309164">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="name" v="La Terrasse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2374"/>
+    <tag k="ref:FR:SIREN" v="213805039"/>
+    <tag k="ref:INSEE" v="38503"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055132" lat="45.0257000" lon="5.7730300">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Laffrey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="382"/>
+    <tag k="ref:FR:SIREN" v="213802036"/>
+    <tag k="ref:INSEE" v="38203"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055134" lat="45.1277768" lon="5.5891386">
+    <tag k="addr:postcode" v="38250"/>
+    <tag k="name" v="Lans-en-Vercors"/>
+    <tag k="old_name" v="Lans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2557"/>
+    <tag k="ref:FR:SIREN" v="213802051"/>
+    <tag k="ref:INSEE" v="38205"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055135" lat="45.2526000" lon="5.9326600">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Laval"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="962"/>
+    <tag k="ref:FR:SIREN" v="213802069"/>
+    <tag k="ref:INSEE" v="38206"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055136" lat="44.9825000" lon="5.8872900">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="Lavaldens"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="157"/>
+    <tag k="ref:FR:SIREN" v="213802077"/>
+    <tag k="ref:INSEE" v="38207"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055139" lat="45.2789481" lon="5.9308898">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Le Champ-près-Froges"/>
+    <tag k="old_name" v="Champ"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1250"/>
+    <tag k="ref:FR:SIREN" v="213800709"/>
+    <tag k="ref:INSEE" v="38070"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055140" lat="45.3698678" lon="5.9920438">
+    <tag k="addr:postcode" v="38570"/>
+    <tag k="name" v="Le Cheylas"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2673"/>
+    <tag k="ref:FR:SIREN" v="213801004"/>
+    <tag k="ref:INSEE" v="38100"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055141" lat="45.0349070" lon="6.1154673">
+    <tag k="addr:postcode" v="38860"/>
+    <tag k="name" v="Bons"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="34055180" lat="45.0216706" lon="5.6452749">
+    <tag k="addr:postcode" v="38450"/>
+    <tag k="name" v="Le Gua"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1887"/>
+    <tag k="ref:FR:SIREN" v="213801871"/>
+    <tag k="ref:INSEE" v="38187"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055184" lat="44.9357992" lon="5.9734070">
+    <tag k="addr:postcode" v="38740"/>
+    <tag k="name" v="Le Périer"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="141"/>
+    <tag k="ref:FR:SIREN" v="213803026"/>
+    <tag k="ref:INSEE" v="38302"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q1068537"/>
+    <tag k="wikipedia" v="fr:Le Périer"/>
+  </node>
+  <node id="34055186" lat="45.2599367" lon="5.7772449">
+    <tag k="addr:postcode" v="38700"/>
+    <tag k="name" v="Le Sappey-en-Chartreuse"/>
+    <tag k="old_name" v="Sappey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1072"/>
+    <tag k="ref:FR:SIREN" v="213804719"/>
+    <tag k="ref:INSEE" v="38471"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055188" lat="45.2711000" lon="5.9642700">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Les Adrets"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="903"/>
+    <tag k="ref:FR:SIREN" v="213800022"/>
+    <tag k="ref:INSEE" v="38002"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055196" lat="45.4185000" lon="5.3519600">
+    <tag k="addr:postcode" v="38690"/>
+    <tag k="name" v="Longechenal"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="570"/>
+    <tag k="ref:FR:SIREN" v="213802135"/>
+    <tag k="ref:INSEE" v="38213"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055197" lat="45.3060201" lon="5.9107644">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="name" v="Lumbin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1969"/>
+    <tag k="ref:FR:SIREN" v="213802143"/>
+    <tag k="ref:INSEE" v="38214"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055199" lat="44.9148368" lon="5.6886466">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="Marcieu"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="70"/>
+    <tag k="ref:INSEE" v="38217"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055206" lat="45.1269060" lon="5.5271394">
+    <tag k="addr:postcode" v="38112"/>
+    <tag k="name" v="Méaudre"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1350"/>
+    <tag k="ref:FR:SIREN" v="213802259"/>
+    <tag k="ref:INSEE" v="38225"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055212" lat="44.9796773" lon="5.6226287">
+    <tag k="addr:postcode" v="38450"/>
+    <tag k="name" v="Miribel-Lanchâtre"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="375"/>
+    <tag k="ref:FR:SIREN" v="213802358"/>
+    <tag k="ref:INSEE" v="38235"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055214" lat="45.0500762" lon="6.1426496">
+    <tag k="addr:postcode" v="38142"/>
+    <tag k="name" v="Mizoën"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="193"/>
+    <tag k="ref:INSEE" v="38237"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055218" lat="44.9183482" lon="5.6358993">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Monestier-de-Clermont"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1273"/>
+    <tag k="ref:FR:SIREN" v="213802424"/>
+    <tag k="ref:INSEE" v="38242"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055220" lat="45.0352956" lon="6.1296543">
+    <tag k="addr:postcode" v="38860"/>
+    <tag k="name" v="Mont-de-Lans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1255"/>
+    <tag k="ref:FR:SIREN" v="213802531"/>
+    <tag k="ref:INSEE" v="38253"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055224" lat="45.2631189" lon="5.5612182">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Montaud"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="526"/>
+    <tag k="ref:FR:SIREN" v="213802481"/>
+    <tag k="ref:INSEE" v="38248"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055226" lat="45.0953000" lon="5.7652000">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Montchaboud"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="369"/>
+    <tag k="ref:FR:SIREN" v="213802523"/>
+    <tag k="ref:INSEE" v="38252"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055227" lat="44.9656674" lon="5.7017388">
+    <tag k="addr:postcode" v="38770"/>
+    <tag k="name" v="Monteynard"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="478"/>
+    <tag k="ref:INSEE" v="38254"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055233" lat="45.3674000" lon="6.0160800">
+    <tag k="addr:postcode" v="38570"/>
+    <tag k="name" v="Morêtel-de-Mailles"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="400"/>
+    <tag k="ref:FR:SIREN" v="213802622"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055234" lat="45.2853000" lon="5.4540300">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Morette"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="386"/>
+    <tag k="ref:FR:SIREN" v="213802630"/>
+    <tag k="ref:INSEE" v="38263"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055236" lat="45.1913000" lon="5.8186500">
+    <tag k="addr:postcode" v="38420"/>
+    <tag k="name" v="Murianette"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="874"/>
+    <tag k="ref:FR:SIREN" v="213802713"/>
+    <tag k="ref:INSEE" v="38271"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055238" lat="44.9351234" lon="5.8263683">
+    <tag k="name" v="Nantes-en-Rattier"/>
+    <tag k="nat_name" v="Nantes-en-Ratier"/>
+    <tag k="note" v="'Ratier' avec un 't' officiellement mais pas sur terrain. Résolution similaire à Vers-sur-Selle (80)"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="479"/>
+    <tag k="postal_code" v="38350"/>
+    <tag k="ref:INSEE" v="38273"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055241" lat="45.0091000" lon="5.7006000">
+    <tag k="addr:postcode" v="38450"/>
+    <tag k="name" v="Notre-Dame-de-Commiers"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="475"/>
+    <tag k="ref:FR:SIREN" v="213802770"/>
+    <tag k="ref:INSEE" v="38277"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q1155557"/>
+    <tag k="wikipedia" v="fr:Notre-Dame-de-Commiers"/>
+  </node>
+  <node id="34055242" lat="45.2380091" lon="5.4060218">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Notre-Dame-de-l'Osier"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="499"/>
+    <tag k="ref:FR:SIREN" v="213802788"/>
+    <tag k="ref:INSEE" v="38278"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055243" lat="45.0713000" lon="5.7555000">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Notre-Dame-de-Mésage"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1198"/>
+    <tag k="ref:FR:SIREN" v="213802796"/>
+    <tag k="ref:INSEE" v="38279"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055244" lat="44.9883987" lon="5.7531769">
+    <tag k="addr:postcode" v="38144"/>
+    <tag k="name" v="Notre-Dame-de-Vaulx"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="542"/>
+    <tag k="ref:FR:SIREN" v="213802804"/>
+    <tag k="ref:INSEE" v="38280"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055246" lat="44.9192000" lon="5.8714900">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="Oris-en-Rattier"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="111"/>
+    <tag k="ref:FR:SIREN" v="213802838"/>
+    <tag k="ref:INSEE" v="38283"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055248" lat="45.0480999" lon="5.9770699">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="name" v="Ornon"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="131"/>
+    <tag k="ref:INSEE" v="38285"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055251" lat="45.1405550" lon="6.0516231">
+    <tag k="addr:postcode" v="38114"/>
+    <tag k="alt_name" v="Oz-en-Oisans"/>
+    <tag k="name" v="Oz"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="221"/>
+    <tag k="ref:INSEE" v="38289"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055280" lat="44.9564031" lon="5.7782634">
+    <tag k="addr:postcode" v="38119"/>
+    <tag k="name" v="Pierre-Châtel"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1333"/>
+    <tag k="ref:FR:SIREN" v="213803042"/>
+    <tag k="ref:INSEE" v="38304"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055281" lat="45.3570757" lon="6.0999506">
+    <tag k="addr:postcode" v="38580"/>
+    <tag k="name" v="Pinsot"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="200"/>
+    <tag k="ref:FR:SIREN" v="213803067"/>
+    <tag k="ref:INSEE" v="38306"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055283" lat="45.3127154" lon="5.3926155">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="Plan"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="246"/>
+    <tag k="ref:FR:SIREN" v="213803083"/>
+    <tag k="ref:INSEE" v="38308"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055284" lat="45.2494000" lon="5.4714700">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Poliénas"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1098"/>
+    <tag k="ref:INSEE" v="38310"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055286" lat="45.3175892" lon="5.6570645">
+    <tag k="addr:postcode" v="38340"/>
+    <tag k="name" v="Pommiers-la-Placette"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="568"/>
+    <tag k="ref:FR:SIREN" v="213803125"/>
+    <tag k="ref:INSEE" v="38312"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055288" lat="45.0622000" lon="5.3425100">
+    <tag k="addr:postcode" v="38680"/>
+    <tag k="name" v="Pont-en-Royans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="835"/>
+    <tag k="ref:FR:SIREN" v="213803190"/>
+    <tag k="ref:INSEE" v="38319"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055291" lat="45.0913000" lon="5.3825400">
+    <tag k="addr:postcode" v="38680"/>
+    <tag k="name" v="Presles"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="99"/>
+    <tag k="ref:FR:SIREN" v="213803224"/>
+    <tag k="ref:INSEE" v="38322"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055294" lat="45.2613000" lon="5.6985400">
+    <tag k="addr:postcode" v="38120"/>
+    <tag k="name" v="Proveysieux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="522"/>
+    <tag k="ref:FR:SIREN" v="213803257"/>
+    <tag k="ref:INSEE" v="38325"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055295" lat="45.2529950" lon="5.7178784">
+    <tag k="addr:postcode" v="38950"/>
+    <tag k="name" v="Quaix-en-Chartreuse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="924"/>
+    <tag k="ref:FR:SIREN" v="213803281"/>
+    <tag k="ref:INSEE" v="38328"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055297" lat="45.3671000" lon="5.5279200">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Réaumont"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="964"/>
+    <tag k="ref:FR:SIREN" v="213803315"/>
+    <tag k="ref:INSEE" v="38331"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055298" lat="45.2752009" lon="5.3857473">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Quincieu"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="81"/>
+    <tag k="ref:INSEE" v="38330"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055299" lat="45.1857120" lon="5.8686599">
+    <tag k="addr:postcode" v="38420"/>
+    <tag k="name" v="Revel"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1377"/>
+    <tag k="ref:FR:SIREN" v="213803349"/>
+    <tag k="ref:INSEE" v="38334"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055300" lat="45.1029000" lon="5.4724100">
+    <tag k="addr:postcode" v="38680"/>
+    <tag k="name" v="Rencurel"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="304"/>
+    <tag k="ref:FR:SIREN" v="213803331"/>
+    <tag k="ref:INSEE" v="38333"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055308" lat="45.2014000" lon="5.4606400">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Rovon"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="593"/>
+    <tag k="ref:FR:SIREN" v="213803455"/>
+    <tag k="ref:INSEE" v="38345"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055315" lat="45.0854250" lon="5.3394344">
+    <tag k="addr:postcode" v="38680"/>
+    <tag k="name" v="Saint-André-en-Royans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="326"/>
+    <tag k="ref:FR:SIREN" v="213803562"/>
+    <tag k="ref:INSEE" v="38356"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055316" lat="44.9614535" lon="5.5533876">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Saint-Andéol"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="116"/>
+    <tag k="ref:FR:SIREN" v="213803554"/>
+    <tag k="ref:INSEE" v="38355"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055322" lat="45.3984000" lon="5.6702700">
+    <tag k="addr:postcode" v="38960"/>
+    <tag k="name" v="Saint-Aupre"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1077"/>
+    <tag k="ref:FR:SIREN" v="213803620"/>
+    <tag k="ref:INSEE" v="38362"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055324" lat="45.0439395" lon="5.8260792">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Saint-Barthélemy-de-Séchilienne"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="471"/>
+    <tag k="ref:FR:SIREN" v="213803646"/>
+    <tag k="ref:INSEE" v="38364"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055325" lat="45.3300547" lon="5.9027458">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="alt_name" v="Saint-Bernard"/>
+    <tag k="name" v="Saint-Bernard-du-Touvet"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="632"/>
+    <tag k="ref:FR:SIREN" v="213803679"/>
+    <tag k="ref:INSEE" v="38367"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055328" lat="45.3788000" lon="5.5218000">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Saint-Blaise-du-Buis"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="993"/>
+    <tag k="ref:FR:SIREN" v="213803687"/>
+    <tag k="ref:INSEE" v="38368"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055329" lat="45.3600720" lon="5.5516356">
+    <tag k="addr:postcode" v="38500"/>
+    <tag k="name" v="Saint-Cassien"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1107"/>
+    <tag k="ref:FR:SIREN" v="213803737"/>
+    <tag k="ref:INSEE" v="38373"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055332" lat="44.9576485" lon="6.1763805">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="name" v="Saint-Christophe-en-Oisans"/>
+    <tag k="old_name" v="Saint-Christophe"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="114"/>
+    <tag k="ref:INSEE" v="38375"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055337" lat="45.0382653" lon="5.7040065">
+    <tag k="addr:postcode" v="38450"/>
+    <tag k="name" v="Saint-Georges-de-Commiers"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2092"/>
+    <tag k="ref:FR:SIREN" v="213803885"/>
+    <tag k="ref:INSEE" v="38388"/>
+    <tag k="wikidata" v="Q686097"/>
+    <tag k="wikipedia" v="fr:Saint-Georges-de-Commiers"/>
+  </node>
+  <node id="34055338" lat="45.3222000" lon="5.3538400">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="Saint-Geoirs"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="497"/>
+    <tag k="ref:FR:SIREN" v="213803877"/>
+    <tag k="ref:INSEE" v="38387"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055339" lat="44.9548000" lon="5.5893300">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Saint-Guillaume"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="282"/>
+    <tag k="ref:FR:SIREN" v="213803919"/>
+    <tag k="ref:INSEE" v="38391"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055340" lat="45.2022356" lon="5.4820229">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Saint-Gervais"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="574"/>
+    <tag k="ref:FR:SIREN" v="213803901"/>
+    <tag k="ref:INSEE" v="38390"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055346" lat="44.9420422" lon="5.7957206">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="Saint-Honoré"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="814"/>
+    <tag k="ref:INSEE" v="38396"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055349" lat="45.2100000" lon="5.8811900">
+    <tag k="addr:postcode" v="38420"/>
+    <tag k="name" v="Saint-Jean-le-Vieux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="243"/>
+    <tag k="ref:FR:SIREN" v="213804040"/>
+    <tag k="ref:INSEE" v="38404"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055350" lat="45.0126000" lon="5.7585000">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Saint-Jean-de-Vaulx"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="552"/>
+    <tag k="ref:FR:SIREN" v="213804024"/>
+    <tag k="ref:INSEE" v="38402"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055352" lat="45.3749688" lon="5.6973975">
+    <tag k="addr:postcode" v="38134"/>
+    <tag k="name" v="Saint-Joseph-de-Rivière"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1145"/>
+    <tag k="ref:FR:SIREN" v="213804057"/>
+    <tag k="ref:INSEE" v="38405"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055354" lat="45.3501712" lon="5.6626610">
+    <tag k="addr:postcode" v="38134"/>
+    <tag k="name" v="Saint-Julien-de-Ratz"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="434"/>
+    <tag k="ref:FR:SIREN" v="213804073"/>
+    <tag k="ref:INSEE" v="38407"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055359" lat="44.9832607" lon="5.6597782">
+    <tag k="name" v="Saint-Martin-de-la-Cluze"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="607"/>
+    <tag k="ref:FR:SIREN" v="213801152"/>
+    <tag k="ref:INSEE" v="38115"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055363" lat="45.3050000" lon="5.3552200">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="Saint-Michel-de-Saint-Geoirs"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="293"/>
+    <tag k="ref:FR:SIREN" v="213804271"/>
+    <tag k="ref:INSEE" v="38427"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055365" lat="45.2262000" lon="5.9268200">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Saint-Mury-Monteymond"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="349"/>
+    <tag k="ref:FR:SIREN" v="213804305"/>
+    <tag k="ref:INSEE" v="38430"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055367" lat="45.3987000" lon="5.6062600">
+    <tag k="addr:postcode" v="38500"/>
+    <tag k="name" v="Saint-Nicolas-de-Macherin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="887"/>
+    <tag k="ref:FR:SIREN" v="213804321"/>
+    <tag k="ref:INSEE" v="38432"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055368" lat="45.2566002" lon="5.8490243">
+    <tag k="addr:postcode" v="38330"/>
+    <tag k="name" v="Saint-Nazaire-les-Eymes"/>
+    <tag k="old_name" v="Saint-Nazaire"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2907"/>
+    <tag k="ref:FR:SIREN" v="213804313"/>
+    <tag k="ref:INSEE" v="38431"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055370" lat="45.1706954" lon="5.6296649">
+    <tag k="addr:postcode" v="38250"/>
+    <tag k="name" v="Saint-Nizier-du-Moucherotte"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1030"/>
+    <tag k="ref:FR:SIREN" v="213804339"/>
+    <tag k="ref:INSEE" v="38433"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055371" lat="45.3164943" lon="5.4288885">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="ele" v="563"/>
+    <tag k="name" v="Saint-Paul-d'Izeaux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="314"/>
+    <tag k="ref:FR:SIREN" v="213804370"/>
+    <tag k="ref:INSEE" v="38437"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055372" lat="45.2920007" lon="5.8604977">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="name" v="Saint-Pancrasse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="438"/>
+    <tag k="ref:FR:SIREN" v="213804354"/>
+    <tag k="ref:INSEE" v="38435"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055374" lat="45.0716067" lon="5.6428518">
+    <tag k="addr:postcode" v="38760"/>
+    <tag k="name" v="Saint-Paul-de-Varces"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="2167"/>
+    <tag k="ref:FR:SIREN" v="213804362"/>
+    <tag k="ref:INSEE" v="38436"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055375" lat="45.3422689" lon="5.8146864">
+    <tag k="addr:postcode" v="38380"/>
+    <tag k="name" v="Saint-Pierre-de-Chartreuse"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1011"/>
+    <tag k="ref:FR:SIREN" v="213804420"/>
+    <tag k="ref:INSEE" v="38442"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055379" lat="45.1211380" lon="5.3621871">
+    <tag k="addr:postcode" v="38160"/>
+    <tag k="name" v="Saint-Pierre-de-Chérennes"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="476"/>
+    <tag k="ref:FR:SIREN" v="213804438"/>
+    <tag k="ref:INSEE" v="38443"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055381" lat="45.0507000" lon="5.7640900">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Saint-Pierre-de-Mésage"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="719"/>
+    <tag k="ref:FR:SIREN" v="213804453"/>
+    <tag k="ref:INSEE" v="38445"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055383" lat="45.2813748" lon="5.5471257">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Saint-Quentin-sur-Isère"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1311"/>
+    <tag k="ref:FR:SIREN" v="213804503"/>
+    <tag k="ref:INSEE" v="38450"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055385" lat="45.1522128" lon="5.3425597">
+    <tag k="addr:postcode" v="38160"/>
+    <tag k="name" v="Saint-Sauveur"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1927"/>
+    <tag k="ref:FR:SIREN" v="213804545"/>
+    <tag k="ref:INSEE" v="38454"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055393" lat="44.9891848" lon="5.7722554">
+    <tag k="addr:postcode" v="38119"/>
+    <tag k="name" v="Saint-Théoffrey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="449"/>
+    <tag k="ref:FR:SIREN" v="213804628"/>
+    <tag k="ref:INSEE" v="38462"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055396" lat="45.2364294" lon="5.9246904">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Sainte-Agnès"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="537"/>
+    <tag k="ref:FR:SIREN" v="213803505"/>
+    <tag k="ref:INSEE" v="38350"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055398" lat="45.3730000" lon="5.9510400">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="name" v="Saint-Vincent-de-Mercuze"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1408"/>
+    <tag k="ref:FR:SIREN" v="213804669"/>
+    <tag k="ref:INSEE" v="38466"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055402" lat="45.3796447" lon="5.9668316">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="name" v="Sainte-Marie-d'Alloix"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="553"/>
+    <tag k="ref:FR:SIREN" v="213804172"/>
+    <tag k="ref:INSEE" v="38417"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055403" lat="45.2735196" lon="5.7584755">
+    <tag k="addr:postcode" v="38700"/>
+    <tag k="name" v="Sarcenas"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="197"/>
+    <tag k="ref:FR:SIREN" v="213804727"/>
+    <tag k="ref:INSEE" v="38472"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055408" lat="45.0538425" lon="5.8346974">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Séchilienne"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="927"/>
+    <tag k="ref:FR:SIREN" v="213804784"/>
+    <tag k="ref:INSEE" v="38478"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055426" lat="45.2582000" lon="5.3755000">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Serre-Nerpol"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="297"/>
+    <tag k="ref:FR:SIREN" v="213802754"/>
+    <tag k="ref:INSEE" v="38275"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055430" lat="45.3430980" lon="5.3915000">
+    <tag k="addr:postcode" v="38590"/>
+    <tag k="name" v="Sillans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1860"/>
+    <tag k="ref:FR:SIREN" v="213804909"/>
+    <tag k="ref:INSEE" v="38490"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055433" lat="44.9458031" lon="5.6556143">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Sinard"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="639"/>
+    <tag k="ref:FR:SIREN" v="213804925"/>
+    <tag k="ref:INSEE" v="38492"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055434" lat="44.9134030" lon="5.8077463">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="Sousville"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="149"/>
+    <tag k="ref:INSEE" v="38497"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055436" lat="44.9180779" lon="5.7814435">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="Susville"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1400"/>
+    <tag k="ref:FR:SIREN" v="213804990"/>
+    <tag k="ref:INSEE" v="38499"/>
+  </node>
+  <node id="34055438" lat="45.3082543" lon="5.9577176">
+    <tag k="addr:postcode" v="38570"/>
+    <tag k="name" v="Tencin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1222"/>
+    <tag k="ref:FR:SIREN" v="213805013"/>
+    <tag k="ref:INSEE" v="38501"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055439" lat="45.1827000" lon="5.3804800">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Têche"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="560"/>
+    <tag k="ref:FR:SIREN" v="213805005"/>
+    <tag k="ref:INSEE" v="38500"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055445" lat="44.9156000" lon="5.6582500">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Treffort"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="245"/>
+    <tag k="ref:FR:SIREN" v="213805138"/>
+    <tag k="ref:INSEE" v="38513"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055450" lat="45.2327000" lon="5.3374300">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Varacieux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="826"/>
+    <tag k="ref:FR:SIREN" v="213805237"/>
+    <tag k="ref:INSEE" v="38523"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055452" lat="45.2565626" lon="5.4102995">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Vatilieu"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="385"/>
+    <tag k="ref:FR:SIREN" v="213805260"/>
+    <tag k="ref:INSEE" v="38526"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055454" lat="45.1072000" lon="5.8067900">
+    <tag k="addr:postcode" v="38410"/>
+    <tag k="name" v="Vaulnaveys-le-Bas"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1174"/>
+    <tag k="ref:FR:SIREN" v="213805286"/>
+    <tag k="ref:INSEE" v="38528"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055455" lat="45.1576422" lon="6.0784120">
+    <tag k="addr:postcode" v="38114"/>
+    <tag k="name" v="Vaujany"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="345"/>
+    <tag k="ref:INSEE" v="38527"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055459" lat="45.1724842" lon="5.8052622">
+    <tag k="addr:postcode" v="38610"/>
+    <tag k="name" v="Venon"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="722"/>
+    <tag k="ref:INSEE" v="38533"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055462" lat="45.2722019" lon="5.6127100">
+    <tag k="addr:postcode" v="38113"/>
+    <tag k="name" v="Veurey-Voroize"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1417"/>
+    <tag k="ref:FR:SIREN" v="213805401"/>
+    <tag k="ref:INSEE" v="38540"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055468" lat="44.9788960" lon="5.8052185">
+    <tag k="addr:postcode" v="38119"/>
+    <tag k="name" v="Villard-Saint-Christophe"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="374"/>
+    <tag k="ref:FR:SIREN" v="213805526"/>
+    <tag k="ref:INSEE" v="38552"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055469" lat="45.0914971" lon="6.0313171">
+    <tag k="addr:postcode" v="38114"/>
+    <tag k="name" v="Villard-Reculas"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="62"/>
+    <tag k="ref:INSEE" v="38550"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="34055477" lat="45.3188331" lon="5.5204498">
+    <tag k="addr:postcode" v="38210"/>
+    <tag k="name" v="Vourey"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1578"/>
+    <tag k="ref:FR:SIREN" v="213805666"/>
+    <tag k="ref:INSEE" v="38566"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="41645744" lat="45.4156930" lon="5.8542069">
+    <tag k="addr:postcode" v="73670"/>
+    <tag k="name" v="Saint-Pierre-d'Entremont"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="559"/>
+    <tag k="ref:INSEE" v="38446"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="41645767" lat="45.2213930" lon="6.2290470">
+    <tag k="addr:postcode" v="73530"/>
+    <tag k="name" v="Saint-Sorlin-d'Arves"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="343"/>
+    <tag k="ref:INSEE" v="73280"/>
+    <tag k="ref:SIREN" v="217302801"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="93777137" lat="45.1083341" lon="5.9338663">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="name" v="Livet"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="246644219" lat="45.1475014" lon="5.4376500">
+    <tag k="addr:postcode" v="38470"/>
+    <tag k="name" v="Malleval-en-Vercors"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="51"/>
+    <tag k="ref:FR:SIREN" v="213802168"/>
+    <tag k="ref:INSEE" v="38216"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="249167216" lat="45.3180750" lon="6.0547724">
+    <tag k="ele" v="1803"/>
+    <tag k="name" v="Crêt Luisard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3006341"/>
+    <tag k="wikipedia" v="fr:Crêt Luisard"/>
+  </node>
+  <node id="252224664" lat="45.3524661" lon="6.1978852">
+    <tag k="ele" v="2807"/>
+    <tag k="name" v="Pic du Frêne"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="obtenu avec cadastre, coordonnées GPS souhatables"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"/>
+    <tag k="wikidata" v="Q770346"/>
+    <tag k="wikipedia" v="fr:Pic du Frêne"/>
+  </node>
+  <node id="253618486" lat="45.0099949" lon="6.1237609">
+    <tag k="name" v="Les Deux-Alpes"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="253727447" lat="45.1251924" lon="6.1276407">
+    <tag k="ele" v="3323"/>
+    <tag k="name" v="Pic du Lac Blanc"/>
+    <tag k="natural" v="peak"/>
+    <tag k="short_name" v="Pic Blanc"/>
+  </node>
+  <node id="277694145" lat="45.2883257" lon="5.7382045">
+    <tag k="ele" v="1771"/>
+    <tag k="name" v="La Pinéa"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q582244"/>
+    <tag k="wikipedia" v="fr:Pinéa"/>
+  </node>
+  <node id="285985177" lat="45.2092471" lon="5.7811983">
+    <tag k="addr:postcode" v="38240"/>
+    <tag k="name" v="Meylan"/>
+    <tag k="name:ru" v="Мелан"/>
+    <tag k="name:uk" v="Мейлан"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="17380"/>
+    <tag k="ref:FR:SIREN" v="213802291"/>
+    <tag k="ref:INSEE" v="38229"/>
+    <tag k="wikidata" v="Q632175"/>
+    <tag k="wikipedia" v="fr:Meylan"/>
+  </node>
+  <node id="289851015" lat="45.0273481" lon="5.4606029">
+    <tag k="ele" v="1238"/>
+    <tag k="name" v="La Vierge du Vercors"/>
+    <tag k="natural" v="peak"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+  <node id="291965339" lat="45.4067688" lon="6.1986294">
+    <tag k="ele" v="2498"/>
+    <tag k="name" v="Les Grands Moulins"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q25048167"/>
+  </node>
+  <node id="315917192" lat="45.2008395" lon="5.9805435">
+    <tag k="ele" v="2506"/>
+    <tag k="name" v="Grand Replomb"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="316033846" lat="45.1308934" lon="5.9308880">
+    <tag k="ele" v="2448"/>
+    <tag k="name" v="Grand Van"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Le sommet est une crête E-O de 50 m. Point mis à l'E au niveau de la ligne de partage des eaux. Un autre sommet plus à l'O, hors crête, avec kairn (et plus haut?) existe aussi."/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="316033862" lat="45.1371171" lon="5.9155171">
+    <tag k="ele" v="2232"/>
+    <tag k="name" v="Grand Eulier"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS+GLONASS"/>
+  </node>
+  <node id="316034128" lat="45.2368473" lon="5.7606537">
+    <tag k="alt_name" v="Croix de l'Izon"/>
+    <tag k="ele" v="1359"/>
+    <tag k="name" v="Saint-Eynard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3322075"/>
+    <tag k="wikipedia" v="fr:Mont Saint-Eynard"/>
+  </node>
+  <node id="318114601" lat="45.1754603" lon="5.9565770">
+    <tag k="created_by" v="Potlatch 0.10f"/>
+    <tag k="ele" v="2596"/>
+    <tag k="name" v="Petite Lance de Domène"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="332955216" lat="45.0207020" lon="6.1746597">
+    <tag k="ele" v="2486"/>
+    <tag k="name" v="Grande Sûre"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="332955219" lat="44.9668986" lon="6.0865835">
+    <tag k="created_by" v="Potlatch 0.10f"/>
+    <tag k="ele" v="2830"/>
+    <tag k="name" v="Aiguille de Vénosc"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="332955255" lat="44.9556255" lon="6.1509704">
+    <tag k="ele" v="2574"/>
+    <tag k="name" v="Roche Ruinée"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="332955260" lat="45.0662360" lon="6.0860524">
+    <tag k="ele" v="2176"/>
+    <tag k="name" v="Signal de l'Homme"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="332955335" lat="45.0732088" lon="6.1344966">
+    <tag k="created_by" v="Potlatch 0.10f"/>
+    <tag k="ele" v="2373"/>
+    <tag k="name" v="La Croix de Cassini"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="332955336" lat="45.1544421" lon="6.1439174">
+    <tag k="description" v="Bloc de béton : Repère scellé dans sa face supérieure - Point vu en place en 1987"/>
+    <tag k="ele" v="3463.62"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Pic de l'Étendard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="7328001 - 1"/>
+    <tag k="source" v="IGN dans le cadre de la cartographie réglementaire 2010"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=7328001"/>
+    <tag k="wikidata" v="Q24932778"/>
+  </node>
+  <node id="332955340" lat="45.1835733" lon="6.1251901">
+    <tag k="name" v="Les Aiguillettes de Vaujany"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="354519864" lat="45.2804191" lon="6.0732335">
+    <tag k="fixme" v="j'hésite pour son placement, ça n'est pas le nom de la commune et au bout on a deux hammeau &quot;le pleynet&quot; et &quot;la martinette&quot;. Alors ? c'est ou fond de france ? l'ensemble ?"/>
+    <tag k="name" v="Fond de France"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="355673746" lat="45.1835567" lon="5.9505127">
+    <tag k="ele" v="2195"/>
+    <tag k="name" v="Pointe de la Sitre"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"/>
+  </node>
+  <node id="356382329" lat="45.2999798" lon="6.1402593">
+    <tag k="ele" v="2866"/>
+    <tag k="name" v="Pointe de Comberousse"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="Bing"/>
+  </node>
+  <node id="365909067" lat="45.4142966" lon="6.2130852">
+    <tag k="name" v="La Grande Roche Blanche"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"/>
+  </node>
+  <node id="368006357" lat="45.1327023" lon="6.1293104">
+    <tag k="name" v="Pic de la Pyramide"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"/>
+  </node>
+  <node id="368307587" lat="45.1095625" lon="6.1160766">
+    <tag k="ele" v="3012"/>
+    <tag k="name" v="Pic de l'Herpie"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"/>
+  </node>
+  <node id="370900135" lat="44.9137612" lon="5.7370621">
+    <tag k="name" v="Serre de l'Horizon 1617 m"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="387868458" lat="44.9574279" lon="6.1513137">
+    <tag k="name" v="Aiguille de Lanchâtra"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="387868459" lat="44.9370002" lon="6.1490821">
+    <tag k="ele" v="2875"/>
+    <tag k="name" v="Le Pierroux"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="387868460" lat="44.9394030" lon="6.1514854">
+    <tag k="ele" v="2739"/>
+    <tag k="name" v="Le Peigne"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="387868461" lat="44.9261398" lon="6.1510908">
+    <tag k="ele" v="3341"/>
+    <tag k="name" v="Tête de Lauranoure"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3546927"/>
+  </node>
+  <node id="387868462" lat="44.9148988" lon="6.1474513">
+    <tag k="ele" v="3231"/>
+    <tag k="name" v="Tête du Salude"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="387868463" lat="44.9511728" lon="6.2145819">
+    <tag k="ele" v="3118"/>
+    <tag k="name" v="Tête de la Marsare"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="387868464" lat="44.9566935" lon="6.2149683">
+    <tag k="ele" v="3168"/>
+    <tag k="name" v="Tête du Graou"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="389043663" lat="44.9927481" lon="6.2044788">
+    <tag k="ele" v="3292"/>
+    <tag k="name" v="Le Jandri"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="389502281" lat="44.9125001" lon="6.1861876">
+    <tag k="ele" v="2845"/>
+    <tag k="name" v="Tête de la Caborne"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="389502282" lat="44.9168300" lon="6.1860751">
+    <tag k="ele" v="2765"/>
+    <tag k="name" v="Tête du Pouget"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="389502327" lat="44.9148560" lon="6.1121749">
+    <tag k="ele" v="3251"/>
+    <tag k="name" v="Pointe Marguerite"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="389502328" lat="44.9404329" lon="6.1164664">
+    <tag k="ele" v="3034"/>
+    <tag k="name" v="Le Petit Roux"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="389502329" lat="44.9675797" lon="6.1351122">
+    <tag k="ele" v="2264"/>
+    <tag k="name" v="Sommet du Soreiller"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="390362982" lat="44.9837779" lon="6.1832427">
+    <tag k="ele" v="2918"/>
+    <tag k="name" v="Tête de la Toura"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="390362983" lat="44.9910949" lon="6.1592530">
+    <tag k="ele" v="2816"/>
+    <tag k="name" v="Tête Moute"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="390362984" lat="44.9886269" lon="6.1635875">
+    <tag k="ele" v="2872"/>
+    <tag k="name" v="Pic du Diable"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="390362985" lat="45.0000097" lon="6.1917400">
+    <tag k="ele" v="3071"/>
+    <tag k="name" v="Tête du lac Noir"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="390362986" lat="45.0099016" lon="6.1969756">
+    <tag k="ele" v="3052"/>
+    <tag k="name" v="Roche Mantel"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="416114868" lat="45.2805648" lon="5.8383608">
+    <tag k="ele" v="1217"/>
+    <tag k="name" v="Château Nardent"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="430876723" lat="45.3584354" lon="5.8973299">
+    <tag k="ele" v="1836"/>
+    <tag k="name" v="Croix"/>
+    <tag k="name:fr" v="L'Aulp du Seuil"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="457465696" lat="45.0031825" lon="5.5587277">
+    <tag k="ele" v="2156"/>
+    <tag k="name" v="La Petite Moucherolle"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="464779382" lat="45.0394469" lon="5.9142883">
+    <tag k="ele" v="2696"/>
+    <tag k="name" v="Le Petit Taillefer"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="470316783" lat="44.9831634" lon="5.7829917">
+    <tag k="name" v="Les Théneaux"/>
+    <tag k="place" v="village"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"/>
+  </node>
+  <node id="470316920" lat="44.9543426" lon="5.8070169">
+    <tag k="name" v="Fugières"/>
+    <tag k="place" v="village"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"/>
+  </node>
+  <node id="471087701" lat="45.1742956" lon="5.9473789">
+    <tag k="ele" v="2390"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="471087728" lat="45.1762807" lon="5.9428675">
+    <tag k="ele" v="2355"/>
+    <tag k="name" v="Petite Lance du Crozet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="474367416" lat="45.3153458" lon="5.3887072">
+    <tag k="ele" v="625"/>
+    <tag k="name" v="La Blache"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="474367417" lat="45.3163782" lon="5.3939652">
+    <tag k="ele" v="629"/>
+    <tag k="name" v="Le Truc"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="475545308" lat="45.0739889" lon="5.9823811">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="name" v="Oulles"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="12"/>
+    <tag k="ref:INSEE" v="38286"/>
+  </node>
+  <node id="490309683" lat="45.0334620" lon="5.5920834">
+    <tag k="ele" v="1974"/>
+    <tag k="name" v="Sommet du Ranc des Agnelons"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="495555549" lat="45.2581552" lon="5.9084060">
+    <tag k="addr:postcode" v="38190"/>
+    <tag k="name" v="Brignoud"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="526533747" lat="45.0901438" lon="5.6200636">
+    <tag k="ele" v="1966"/>
+    <tag k="name" v="Pic Saint-Michel"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="531732578" lat="45.1549040" lon="5.7989500">
+    <tag k="ele" v="903"/>
+    <tag k="name" v="Le Fournet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2009"/>
+  </node>
+  <node id="569260517" lat="45.3183347" lon="6.1103047">
+    <tag k="ele" v="1829"/>
+    <tag k="name" v="Croix Léat"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580925021" lat="45.2368552" lon="6.0538849">
+    <tag k="ele" v="2718"/>
+    <tag k="name" v="Pic de la Belle Étoile"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3382404"/>
+    <tag k="wikipedia" v="fr:Pic de la Belle Étoile"/>
+  </node>
+  <node id="580959540" lat="45.2117535" lon="6.0130862">
+    <tag k="ele" v="2312"/>
+    <tag k="name" v="Pointe du Sciallet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580959543" lat="45.2138395" lon="6.0162190">
+    <tag k="ele" v="2286"/>
+    <tag k="name" v="Pointe du Sifflet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580959544" lat="45.2001898" lon="6.0000251">
+    <tag k="ele" v="2622"/>
+    <tag k="name" v="Ferrouillet - Pointe Sud"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580959545" lat="45.2025619" lon="5.9982803">
+    <tag k="ele" v="2587"/>
+    <tag k="name" v="Ferrouillet - Pointe Centrale Sud"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580959546" lat="45.2053739" lon="5.9984091">
+    <tag k="ele" v="2571"/>
+    <tag k="name" v="Pointe Centrale Nord"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580959547" lat="45.2319864" lon="6.0172890">
+    <tag k="ele" v="2325"/>
+    <tag k="name" v="Jas des Lièvres"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580959548" lat="45.2075811" lon="6.0062626">
+    <tag k="ele" v="2475"/>
+    <tag k="name" v="Pointe de la Scia"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580981367" lat="45.1883662" lon="5.9870646">
+    <tag k="ele" v="2755"/>
+    <tag k="name" v="Rocher de l'Homme"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580981368" lat="45.1712625" lon="5.9916942">
+    <tag k="ele" v="2977"/>
+    <tag k="name" v="Grand Pic de Belledonne"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+    <tag k="wikidata" v="Q3113702"/>
+    <tag k="wikipedia" v="fr:Grand Pic de Belledonne"/>
+  </node>
+  <node id="580981369" lat="45.1710024" lon="5.9749115">
+    <tag k="ele" v="2764"/>
+    <tag k="name" v="Pic Couttet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="580981370" lat="45.1618647" lon="5.9708345">
+    <tag k="ele" v="2802"/>
+    <tag k="name" v="Pic du Grand Doménon"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3382427"/>
+    <tag k="wikipedia" v="fr:Pic du Grand Doménon"/>
+  </node>
+  <node id="580981377" lat="45.1572374" lon="5.9589657">
+    <tag k="ele" v="2741"/>
+    <tag k="name" v="Grande Lauzière"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3114954"/>
+    <tag k="wikipedia" v="fr:Grande Lauzière"/>
+  </node>
+  <node id="581058545" lat="45.0390264" lon="5.9399890">
+    <tag k="ele" v="2839"/>
+    <tag k="name" v="La Pyramide"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="581058546" lat="45.0435447" lon="5.9409331">
+    <tag k="ele" v="2783"/>
+    <tag k="name" v="Les Rochères"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="601057931" lat="45.3884074" lon="6.1476332">
+    <tag k="ele" v="2078"/>
+    <tag k="name" v="Les Plagnes"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="619482705" lat="45.3066305" lon="6.0515808">
+    <tag k="ele" v="1919"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="623987684" lat="45.0543486" lon="6.0771511">
+    <tag k="addr:postcode" v="38142"/>
+    <tag k="name" v="Auris en Oisans"/>
+    <tag k="place" v="village"/>
+    <tag k="sport" v="skiing"/>
+  </node>
+  <node id="624027794" lat="45.0924010" lon="6.0699443">
+    <tag k="name" v="L'Alpe d'Huez"/>
+    <tag k="name:fr" v="V - L'Alpe d'Huez"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="670140449" lat="45.1864372" lon="5.5923808">
+    <tag k="description" v="Borne en granit gravée IGN - Point vu en place en 1952"/>
+    <tag k="ele" v="1709.36"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Charande"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3802105 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3802105"/>
+  </node>
+  <node id="670140904" lat="45.1115010" lon="6.1334122">
+    <tag k="description" v="Rocher : Plaquette géodésique scellée - Point vu en place en 1983"/>
+    <tag k="ele" v="3062.7"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Sommet Sud de Sarenne"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3811202 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3811202"/>
+  </node>
+  <node id="670140964" lat="45.0048920" lon="5.5641288">
+    <tag k="description" v="Borne SGA - Point vu en place en 1956"/>
+    <tag k="ele" v="2284.87"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="La Grande Moucherolle"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3812901 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3812901"/>
+    <tag k="wikidata" v="Q3114991"/>
+  </node>
+  <node id="670141026" lat="45.1965826" lon="5.6483582">
+    <tag k="description" v="Borne en granit gravée IGN - Point vu en place en 2001"/>
+    <tag k="ele" v="1069.41"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Mollard Gargot"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3815301 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3815301"/>
+  </node>
+  <node id="670141063" lat="45.2387502" lon="6.0404027">
+    <tag k="description" v="Cairn : Tube centre : Axe et base - Point vu en place en 1987"/>
+    <tag k="ele" v="2624.81"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Dent du Pra"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3816303 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3816303"/>
+  </node>
+  <node id="670141086" lat="45.2364776" lon="6.1033636">
+    <tag k="description" v="Cairn : Axe et sommet - Point vu en place en 1942"/>
+    <tag k="ele" v="2914.9"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="La Pyramide"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3816320 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3816320"/>
+  </node>
+  <node id="670141329" lat="45.0903378" lon="5.9593430">
+    <tag k="description" v="Rocher : Dalle de béton : Piquet en fer centre : Axe et sommet - Point vu en place en 1950"/>
+    <tag k="ele" v="2561.39"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Grand Galbert"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3821203 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3821203"/>
+    <tag k="wikidata" v="Q3113600"/>
+  </node>
+  <node id="670141363" lat="45.1374231" lon="5.4933604">
+    <tag k="description" v="Borne en granit gravée IGN (1951) - Point vu en place en 1953"/>
+    <tag k="ele" v="1628.3"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Roche de Méaudre"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3822502 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3822502"/>
+  </node>
+  <node id="670141465" lat="45.1001458" lon="5.7675604">
+    <tag k="description" v="Borne SGA : Repère hémisphérique 1994 en laiton de 18 mm de diamètre - Point vu en place en 2006"/>
+    <tag k="ele" v="733.16"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Bellevue"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3825201 - B"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3825201"/>
+  </node>
+  <node id="670141533" lat="44.9294156" lon="5.7448314">
+    <tag k="description" v="Rocher : Rivet en fer scellé - Point vu en place en 1983"/>
+    <tag k="ele" v="1560.01"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Pierre Plantée 1560 m"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3826501 - C"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3826501"/>
+  </node>
+  <node id="670141582" lat="44.9333154" lon="5.9133211">
+    <tag k="description" v="Borne en granit gravée IGN - Point vu en place en 1983"/>
+    <tag k="ele" v="2606.7"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Le Coiro"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3828302 - A"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3828302"/>
+  </node>
+  <node id="670141665" lat="44.9393038" lon="6.0425967">
+    <tag k="description" v="Rocher : Spit : Boulon - Point vu en place en 1983"/>
+    <tag k="ele" v="2901.43"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Signal du Lauvitel"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3830204 - B"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3830204"/>
+  </node>
+  <node id="670142089" lat="44.9644543" lon="6.2229648">
+    <tag k="description" v="Borne en granit gravée IGN - Point vu en place en 1983"/>
+    <tag k="ele" v="3595.3"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Aiguille du Plat de la Selle"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3837508 - A"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3837508"/>
+  </node>
+  <node id="670142229" lat="44.9617244" lon="5.8438920">
+    <tag k="description" v="Cairn : Croix en fer scellée : Axe - Point vu en place en 1983"/>
+    <tag k="ele" v="2214.1"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Piquet de Nantes"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3839602 - D"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3839602"/>
+  </node>
+  <node id="670142246" lat="45.0458475" lon="5.7416981">
+    <tag k="alt_name" v="Le Connex"/>
+    <tag k="description" v="Borne SGA : Face supérieure : Croix gravée - Point vu en place en 1956"/>
+    <tag k="ele" v="1360.12"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Fau Cuchet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3840201 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3840201"/>
+  </node>
+  <node id="670142250" lat="45.0141084" lon="5.7405240">
+    <tag k="description" v="Tube en fonte de 0.10 m de diamètre : Axe et sommet - Point vu en place en 1956"/>
+    <tag k="ele" v="1632.66"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Beauregard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3840203 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3840203"/>
+  </node>
+  <node id="670142546" lat="45.2529510" lon="5.7578016">
+    <tag k="description" v="Borne en granit gravée IGN (1949) - Point vu en place en 1950"/>
+    <tag k="ele" v="1406.55"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="L'Écoutoux"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="38471A - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="tourism" v="viewpoint"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=38471A"/>
+    <tag k="wikidata" v="Q3578842"/>
+    <tag k="wikipedia" v="fr:Écoutoux"/>
+  </node>
+  <node id="670142715" lat="45.2184560" lon="5.7334702">
+    <tag k="description" v="Borne en granit gravée IGN (1949) - Point vu en place en 1950"/>
+    <tag k="ele" v="1046.32"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Mont Rachais"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3851601 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3851601"/>
+    <tag k="wikidata" v="Q3416060"/>
+    <tag k="wikipedia" v="fr:Mont Rachais"/>
+  </node>
+  <node id="670142788" lat="45.1836334" lon="6.0681308">
+    <tag k="description" v="Rocher : Repère en bronze scellé - Point vu en place en 1950"/>
+    <tag k="ele" v="2622.35"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Le Rissiou"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3852708 - B"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3852708"/>
+  </node>
+  <node id="670142790" lat="45.1838321" lon="6.1130875">
+    <tag k="description" v="Rocher : Dalle en béton : Piquet en fer centre : Axe et sommet - Point vu en place en 1950"/>
+    <tag k="ele" v="2395.33"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Côte Belle"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3852710 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3852710"/>
+  </node>
+  <node id="670142861" lat="45.0250683" lon="5.5889739">
+    <tag k="description" v="Rocher : Repère bronze centre sous borne - Point vu en place en 1956"/>
+    <tag k="ele" v="2109.44"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Mont Gerbier"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3854808 - 2"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3854808"/>
+  </node>
+  <node id="670142867" lat="45.0882178" lon="6.0470984">
+    <tag k="description" v="Borne en granit gravée IGN (1949) - Point vu en place en 1972"/>
+    <tag k="ele" v="1972.65"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Signal de Villard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="3855001 - 1"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=3855001"/>
+  </node>
+  <node id="670537438" lat="45.3172025" lon="6.2108925">
+    <tag k="description" v="Borne IGN - Point vu en place en 1987"/>
+    <tag k="ele" v="2427.56"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Le Grand Jarnalet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="7323018 - A"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=7323018"/>
+  </node>
+  <node id="670538584" lat="45.1618782" lon="6.1753081">
+    <tag k="description" v="Rivet en fer scellé dans le roc - Point vu en place en 1972"/>
+    <tag k="ele" v="2957.59"/>
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Mont Péaiaux"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res"/>
+    <tag k="ref" v="7328010 - B"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=7328010"/>
+  </node>
+  <node id="686543788" lat="44.9909018" lon="5.8455707">
+    <tag k="ele" v="2183"/>
+    <tag k="name" v="Le Pérollier"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="687005186" lat="44.9842413" lon="5.8558068">
+    <tag k="ele" v="2291"/>
+    <tag k="name" v="L'Oreille du Loup"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="712708158" lat="45.0984636" lon="5.7737901">
+    <tag k="ele" v="737"/>
+    <tag k="name" v="Pravena"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="838320076" lat="45.1630683" lon="5.9268136">
+    <tag k="ele" v="2394"/>
+    <tag k="name" v="Grand Colon"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="881236418" lat="45.2444914" lon="6.1331945">
+    <tag k="ele" v="2913"/>
+    <tag k="name" v="Aiguille Dulong de Rosnay"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="881236431" lat="45.2449360" lon="6.1295632">
+    <tag k="ele" v="2904"/>
+    <tag k="name" v="Aiguille de Marcieu"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q32126658"/>
+  </node>
+  <node id="881236433" lat="45.2445312" lon="6.1322281">
+    <tag k="ele" v="2905"/>
+    <tag k="name" v="Aiguille de Baroz"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="881236437" lat="45.2447439" lon="6.1308062">
+    <tag k="ele" v="2915"/>
+    <tag k="name" v="Aiguille Michel"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="881236442" lat="45.2444627" lon="6.1327158">
+    <tag k="ele" v="2902"/>
+    <tag k="name" v="Aiguille Repiton-Préneuf"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="939220266" lat="45.1475075" lon="5.6394189">
+    <tag k="ele" v="1901"/>
+    <tag k="name" v="Moucherotte"/>
+    <tag k="natural" v="peak"/>
+    <tag k="tourism" v="viewpoint"/>
+    <tag k="wikidata" v="Q3325416"/>
+  </node>
+  <node id="954805015" lat="45.0407202" lon="5.3938922">
+    <tag k="name" v="La Petite Cournouse"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="© CNES 2004-2007 / Spot Image"/>
+  </node>
+  <node id="960232636" lat="44.9413712" lon="5.8548466">
+    <tag k="addr:postcode" v="38350"/>
+    <tag k="name" v="La Valette"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="73"/>
+    <tag k="ref:FR:SIREN" v="213805211"/>
+    <tag k="ref:INSEE" v="38521"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="963046396" lat="45.2712291" lon="5.6743557">
+    <tag k="addr:postcode" v="38120"/>
+    <tag k="name" v="Mont-Saint-Martin"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="88"/>
+    <tag k="ref:FR:SIREN" v="213802580"/>
+    <tag k="ref:INSEE" v="38258"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="968672033" lat="45.0332345" lon="6.0184796">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="name" v="Villard-Reymond"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="35"/>
+    <tag k="ref:INSEE" v="38551"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1024658556" lat="45.2356038" lon="5.5446860">
+    <tag k="ele" v="1554"/>
+    <tag k="name" v="Bec de l'Orient"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1070910217" lat="44.9691969" lon="5.9968102">
+    <tag k="ele" v="2527"/>
+    <tag k="name" v="Sommet des Clottous"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1070910790" lat="44.9801121" lon="6.0312809">
+    <tag k="ele" v="3022"/>
+    <tag k="name" v="Le Rochail"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q1342669"/>
+  </node>
+  <node id="1071045948" lat="44.9954071" lon="6.0157787">
+    <tag k="ele" v="2870"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1071047469" lat="45.0000218" lon="6.0109366">
+    <tag k="alt_name" v="Grand Reynaud"/>
+    <tag k="ele" v="2776"/>
+    <tag k="name" v="Grand Renaud"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+  </node>
+  <node id="1071047482" lat="45.0162510" lon="5.9951081">
+    <tag k="ele" v="2396"/>
+    <tag k="name" v="Tête des Filons"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1071222366" lat="45.0193734" lon="6.0435589">
+    <tag k="addr:postcode" v="38520"/>
+    <tag k="name" v="Villard-Notre-Dame"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="25"/>
+    <tag k="ref:INSEE" v="38549"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1082605652" lat="44.9361978" lon="6.0752448">
+    <tag k="ele" v="3169"/>
+    <tag k="name" v="Pic du Clapier du Peyron"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Déplacé pour coller avec les courbes de niveau OpenCycleMap (issues SRTM)"/>
+  </node>
+  <node id="1088194100" lat="45.1631384" lon="5.6398870">
+    <tag k="ele" v="1456"/>
+    <tag k="name" v="Les 3 Pucelles"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1116183740" lat="45.0923388" lon="5.9035215">
+    <tag k="addr:postcode" v="38220"/>
+    <tag k="alt_name" v="Livet-et-Gavet"/>
+    <tag k="name" v="Rioupéroux"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1226"/>
+    <tag k="ref:INSEE" v="38212"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1182497748" lat="45.3077149" lon="5.4979895">
+    <tag k="name" v="Fures"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="1187964425" lat="45.2417564" lon="6.0419066">
+    <tag k="ele" v="2478"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="1217612779" lat="45.0998590" lon="6.0590757">
+    <tag k="alt_name" v="Signal d'Huez"/>
+    <tag k="ele" v="2114"/>
+    <tag k="loc_name" v="Le Signal"/>
+    <tag k="name" v="La Grande Sure"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
+  </node>
+  <node id="1219016134" lat="45.1289814" lon="6.1070003">
+    <tag k="ele" v="2810"/>
+    <tag k="name" v="Dôme des Petites Rousses"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
+  </node>
+  <node id="1219299477" lat="45.2418114" lon="6.0637646">
+    <tag k="ele" v="2732"/>
+    <tag k="name" v="Pic des Cabottes"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS average"/>
+  </node>
+  <node id="1219343623" lat="45.2492362" lon="6.0496849">
+    <tag k="ele" v="2203"/>
+    <tag k="name" v="Rochers de l'Évèque"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="bing"/>
+  </node>
+  <node id="1238926799" lat="45.1262090" lon="5.8769694">
+    <tag k="alt_name" v="Chamrousse 1650"/>
+    <tag k="name" v="Le Recoin"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="1238940013" lat="45.1128448" lon="5.8759265">
+    <tag k="alt_name" v="Chamrousse 1750"/>
+    <tag k="name" v="Roche Béranger"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="1251018329" lat="45.0052913" lon="5.8262932">
+    <tag k="ele" v="2141"/>
+    <tag k="name" v="Le Grand Serre"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+    <tag k="wikidata" v="Q3114571"/>
+  </node>
+  <node id="1269575365" lat="45.3401598" lon="5.7192958">
+    <tag k="name" v="Mollard de la Grande Vache"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1343198489" lat="45.0861508" lon="6.1172417">
+    <tag k="ele" v="2316"/>
+    <tag k="name" v="Tête du Serre"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
+  </node>
+  <node id="1343314880" lat="45.1304472" lon="6.0584545">
+    <tag k="ele" v="1320"/>
+    <tag k="name" v="La Poipe"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
+  </node>
+  <node id="1390589507" lat="45.0525077" lon="5.6407759">
+    <tag k="ele" v="1270"/>
+    <tag k="name" v="Le Pieu 1270 m"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="Petite croix sur un cairn"/>
+  </node>
+  <node id="1390720961" lat="45.0234837" lon="5.6775437">
+    <tag k="ele" v="926"/>
+    <tag k="name" v="Le Grand Brion"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1390732221" lat="45.0536832" lon="5.6919950">
+    <tag k="ele" v="537"/>
+    <tag k="name" v="Le Petit Brion"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1392648882" lat="45.3251067" lon="5.7641689">
+    <tag k="ele" v="1867"/>
+    <tag k="name" v="Charmant Som"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q2961098"/>
+    <tag k="wikipedia" v="fr:Charmant Som"/>
+  </node>
+  <node id="1396705728" lat="45.0556825" lon="5.6438281">
+    <tag k="ele" v="1017"/>
+    <tag k="name" v="Rochers de brise Tourte"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1400995206" lat="45.2127486" lon="6.1889739">
+    <tag k="ele" v="2537"/>
+    <tag k="name" v="Le Barrioz"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1417116954" lat="45.2211651" lon="5.6229828">
+    <tag k="name" v="La Dent du Loup"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1419490886" lat="45.3469622" lon="5.8731810">
+    <tag k="ele" v="2045"/>
+    <tag k="name" v="Lance sud de Malissard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="JVT Relevé 110710"/>
+  </node>
+  <node id="1489084817" lat="45.3300111" lon="6.0594090">
+    <tag k="ele" v="1726"/>
+    <tag k="name" v="Crêt du Poulet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3006355"/>
+    <tag k="wikipedia" v="fr:Crêt du Poulet"/>
+  </node>
+  <node id="1510075046" lat="45.2439251" lon="5.5843788">
+    <tag k="ele" v="1623"/>
+    <tag k="name" v="La Buffe"/>
+    <tag k="natural" v="peak"/>
+    <tag k="tourism" v="viewpoint"/>
+    <tag k="wikidata" v="Q19544006"/>
+  </node>
+  <node id="1527255982" lat="45.4176311" lon="5.8547816">
+    <tag k="addr:postcode" v="73670"/>
+    <tag k="name" v="Saint-Pierre-d'Entremont"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="424"/>
+    <tag k="ref:INSEE" v="73274"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1535655430" lat="45.3487343" lon="5.8509429">
+    <tag k="ele" v="1791"/>
+    <tag k="name" v="La Scia"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q16652713"/>
+  </node>
+  <node id="1573263926" lat="44.9284113" lon="5.6276912">
+    <tag k="addr:postcode" v="38650"/>
+    <tag k="name" v="Saint-Paul-lès-Monestier"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="260"/>
+    <tag k="ref:FR:SIREN" v="213804388"/>
+    <tag k="ref:INSEE" v="38438"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1600217665" lat="45.3077301" lon="5.7489380">
+    <tag k="ele" v="1708"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="1648953436" lat="44.9230813" lon="5.9122329">
+    <tag k="ele" v="2154"/>
+    <tag k="name" v="Sommet de la Cavale"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="1685056116" lat="45.2352344" lon="5.5973979">
+    <tag k="ele" v="1643"/>
+    <tag k="name" v="La Sure"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+    <tag k="wikidata" v="Q21027470"/>
+  </node>
+  <node id="1689391357" lat="45.2466513" lon="5.7866049">
+    <tag k="name" v="L'Aiguille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1699548197" lat="45.0266616" lon="5.3844084">
+    <tag k="addr:postcode" v="26190"/>
+    <tag k="name" v="Échevis"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="52"/>
+    <tag k="ref:INSEE" v="26117"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1699746298" lat="45.3034135" lon="6.1270642">
+    <tag k="ele" v="2566"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="1704305794" lat="45.3408508" lon="5.4704161">
+    <tag k="addr:postcode" v="38140"/>
+    <tag k="name" v="Beaucroissant"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1477"/>
+    <tag k="ref:INSEE" v="38030"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="1704314483" lat="45.1785901" lon="5.7658365">
+    <tag k="name" v="Saint-Martin-d'Hères"/>
+    <tag k="place" v="town"/>
+    <tag k="population" v="36177"/>
+    <tag k="ref:INSEE" v="38421"/>
+    <tag k="source:population" v="INSEE 2013"/>
+    <tag k="wikidata" v="Q243868"/>
+    <tag k="wikipedia" v="fr:Saint-Martin-d'Hères"/>
+  </node>
+  <node id="1725402635" lat="45.2415917" lon="6.0329416">
+    <tag k="ele" v="2478"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="Cime de la Jasse"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+    <tag k="tourism" v="information"/>
+  </node>
+  <node id="1746908724" lat="45.0201370" lon="6.1419647">
+    <tag k="ele" v="2181"/>
+    <tag k="name" v="Grande Aiguille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1747064858" lat="45.0229286" lon="6.1370929">
+    <tag k="ele" v="1993"/>
+    <tag k="name" v="Petite Aiguille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1751040053" lat="45.2636304" lon="6.1615370">
+    <tag k="ele" v="2733"/>
+    <tag k="name" v="Cime du Sambuis"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS y compris pour l'altitude"/>
+  </node>
+  <node id="1756229984" lat="45.3113168" lon="5.8354154">
+    <tag k="alt_name" v="Dôme d'Arguille"/>
+    <tag k="ele" v="1760"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="Pravouta"/>
+    <tag k="natural" v="peak"/>
+    <tag k="tourism" v="information"/>
+  </node>
+  <node id="1767322088" lat="45.2395704" lon="6.2150260">
+    <tag k="ele" v="2432"/>
+    <tag k="name" v="Pointe de L'Ouillon"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q31635262"/>
+  </node>
+  <node id="1767322090" lat="45.2560807" lon="6.2311431">
+    <tag k="ele" v="2225"/>
+    <tag k="name" v="Tête de Bellard"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768140623" lat="44.9947217" lon="6.1563880">
+    <tag k="ele" v="2748"/>
+    <tag k="name" v="Montagne de Rachas"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768150379" lat="45.0088927" lon="6.1052811">
+    <tag k="ele" v="2106"/>
+    <tag k="name" v="Le Mais"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768363131" lat="45.0040798" lon="6.1677327">
+    <tag k="ele" v="2649"/>
+    <tag k="name" v="La Belle Etoile"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768386258" lat="45.0003352" lon="6.2003849">
+    <tag k="ele" v="3178"/>
+    <tag k="name" v="Cairn"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768408512" lat="44.9967846" lon="6.2228511">
+    <tag k="ele" v="3417"/>
+    <tag k="name" v="Dôme de Puy Salié"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768499196" lat="44.9931201" lon="6.1291586">
+    <tag k="ele" v="1842"/>
+    <tag k="name" v="Les Perrons"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768503499" lat="45.0375950" lon="6.0983454">
+    <tag k="ele" v="1175"/>
+    <tag k="name" v="Le Moutet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768563103" lat="45.1544320" lon="6.1656480">
+    <tag k="ele" v="3217"/>
+    <tag k="name" v="Cime du Grand Sauvage"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q31642427"/>
+  </node>
+  <node id="1768570161" lat="45.0144065" lon="6.1097318">
+    <tag k="ele" v="2076"/>
+    <tag k="name" v="Crête du Fioc"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768574859" lat="45.0240229" lon="6.1728173">
+    <tag k="ele" v="2451"/>
+    <tag k="name" v="La Sure"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768640522" lat="44.9791072" lon="6.1790885">
+    <tag k="ele" v="2710"/>
+    <tag k="name" v="Aiguilles Rouges de la Toura"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768645254" lat="45.0308574" lon="6.1325039">
+    <tag k="ele" v="1591"/>
+    <tag k="name" v="La Tallias"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1768659193" lat="45.0708479" lon="6.1144794">
+    <tag k="ele" v="2164"/>
+    <tag k="name" v="Grandes Buffes"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1773707559" lat="45.3131166" lon="5.6964734">
+    <tag k="ele" v="1838"/>
+    <tag k="name" v="Rocher de Lorzier"/>
+    <tag k="natural" v="peak"/>
+    <tag k="tourism" v="viewpoint"/>
+    <tag k="wikidata" v="Q24929376"/>
+    <tag k="wikipedia" v="fr:Rocher de Lorzier"/>
+  </node>
+  <node id="1786381625" lat="44.9658794" lon="6.1354555">
+    <tag k="ele" v="2328"/>
+    <tag k="name" v="La Coche"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1786404236" lat="45.1177693" lon="6.1358836">
+    <tag k="ele" v="3128"/>
+    <tag k="name" v="Sommet Nord de Sarenne"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1793526666" lat="45.2966422" lon="5.8284109">
+    <tag k="ele" v="1738"/>
+    <tag k="name" v="Bec Charvet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q2419534"/>
+  </node>
+  <node id="1827457872" lat="45.2981009" lon="5.6975877">
+    <tag k="ele" v="1845"/>
+    <tag k="name" v="Rochers de Chalves"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1867544846" lat="45.2937986" lon="6.2259435">
+    <tag k="name" v="Saint-Colomban-des-Villards"/>
+    <tag k="name:br" v="Sent-Colomban-dus-Velârs"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="1914863807" lat="44.9699238" lon="6.0209948">
+    <tag k="ele" v="2800"/>
+    <tag k="name" v="Le Neyrard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="gps"/>
+  </node>
+  <node id="1923495140" lat="45.2855294" lon="6.1070507">
+    <tag k="ele" v="2345"/>
+    <tag k="name" v="Grande Roche de Thiervoz"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1930165702" lat="45.1622972" lon="5.9366271">
+    <tag k="ele" v="2402"/>
+    <tag k="name" v="Le Galeteau"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="1930165703" lat="45.1694452" lon="5.9893155">
+    <tag k="ele" v="2945"/>
+    <tag k="name" v="Pic Central de Belledonne"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="1947966778" lat="45.2039883" lon="5.7242332">
+    <tag k="ele" v="635"/>
+    <tag k="name" v="Mont Jalla"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3321880"/>
+    <tag k="wikipedia" v="fr:Mont Jalla"/>
+  </node>
+  <node id="2035543371" lat="45.0457481" lon="6.1270180">
+    <tag k="addr:postcode" v="38142"/>
+    <tag k="name" v="Le Freney-d'Oisans"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="265"/>
+    <tag k="ref:INSEE" v="38173"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="2058514210" lat="45.1280437" lon="5.4920628">
+    <tag k="ele" v="1583"/>
+    <tag k="natural" v="peak"/>
+    <tag k="note" v="altitude GPS"/>
+  </node>
+  <node id="2130925486" lat="45.1275410" lon="5.9304590">
+    <tag k="ele" v="2439"/>
+    <tag k="name" v="Petit Van"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="2162421234" lat="45.0936534" lon="5.5030425">
+    <tag k="ele" v="1556"/>
+    <tag k="name" v="Gros Martel"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2162630369" lat="45.0913563" lon="5.5374437">
+    <tag k="ele" v="1361"/>
+    <tag k="name" v="Sommet de Meillarot"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2184405165" lat="45.3567539" lon="5.7245938">
+    <tag k="name" v="Crête de la Charmille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2184405168" lat="45.3468747" lon="5.7243272">
+    <tag k="ele" v="1735"/>
+    <tag k="name" v="La Petite Vache"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="Bing"/>
+  </node>
+  <node id="2311338067" lat="45.3166807" lon="5.6399378">
+    <tag k="ele" v="932"/>
+    <tag k="name" v="Roche Brune"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2311742276" lat="45.3171732" lon="5.8372042">
+    <tag k="ele" v="1768"/>
+    <tag k="name" v="Roc d'Arguille"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3437335"/>
+  </node>
+  <node id="2311780641" lat="45.0006318" lon="5.5760021">
+    <tag k="ele" v="2194"/>
+    <tag k="name" v="La Grande Sœur - Agathe"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2313619693" lat="45.2939755" lon="5.6606810">
+    <tag k="ele" v="1089"/>
+    <tag k="name" v="Aiguille de Chalais"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q2827874"/>
+    <tag k="wikipedia" v="fr:Aiguille de Chalais"/>
+  </node>
+  <node id="2317409472" lat="45.2874285" lon="5.5956578">
+    <tag k="ele" v="988"/>
+    <tag k="name" v="Dent de Moirans"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3023306"/>
+  </node>
+  <node id="2317411200" lat="45.2980348" lon="5.6010462">
+    <tag k="ele" v="622"/>
+    <tag k="name" v="Bec de l'Echaillon"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2329556881" lat="45.2222935" lon="6.0990462">
+    <tag k="ele" v="2725"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="2329738980" lat="45.2145170" lon="6.0822904">
+    <tag k="ele" v="2560"/>
+    <tag k="name" v="Pic Bunard"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="d'après repères géodésiques"/>
+  </node>
+  <node id="2331507141" lat="45.0287908" lon="5.6178633">
+    <tag k="ele" v="1411"/>
+    <tag k="name" v="Rocher de l'Épiremmont"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2339206341" lat="45.3779708" lon="5.6654836">
+    <tag k="ele" v="706"/>
+    <tag k="name" v="Rocher de la Garde"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2342141541" lat="45.3661414" lon="5.9332678">
+    <tag k="ele" v="875"/>
+    <tag k="name" v="Pierre Aiguille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2348106801" lat="44.9169552" lon="6.0108966">
+    <tag k="ele" v="2585"/>
+    <tag k="name" v="Pic Vert"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2411519195" lat="44.9902376" lon="6.1159627">
+    <tag k="name" v="Vénosc"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="2420598491" lat="45.3412365" lon="5.8798899">
+    <tag k="ele" v="1975"/>
+    <tag k="name" v="Dôme de Bellefont"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2441614661" lat="45.1536650" lon="5.8046118">
+    <tag k="ele" v="937"/>
+    <tag k="name" v="Les Quatre Seigneurs"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2441625524" lat="45.1340886" lon="5.7587491">
+    <tag k="ele" v="544"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2461515699" lat="45.0364789" lon="6.1449842">
+    <tag k="name" v="Cuculet"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="2475339665" lat="45.2671104" lon="5.7205577">
+    <tag k="ele" v="1143"/>
+    <tag k="name" v="Aiguille de Quaix"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="©IGN 2010 dans le cadre de la cartographie réglementaire"/>
+    <tag k="wikidata" v="Q2827878"/>
+  </node>
+  <node id="2494875166" lat="45.4089136" lon="6.2077373">
+    <tag k="ele" v="2457"/>
+    <tag k="name" v="Le Fort"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2494875301" lat="45.4119263" lon="6.2279719">
+    <tag k="ele" v="2080"/>
+    <tag k="name" v="Rochers de la Fornaise"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2509607084" lat="45.1716404" lon="5.9593594">
+    <tag k="ele" v="2790"/>
+    <tag k="name" v="Grande Lance de Domène"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS+GLONASS"/>
+    <tag k="wikidata" v="Q3114955"/>
+    <tag k="wikipedia" v="fr:Grande Lance de Domène"/>
+  </node>
+  <node id="2560388327" lat="45.2229843" lon="6.1952863">
+    <tag k="name" v="Petit Perron"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2641806800" lat="45.2929040" lon="6.0410378">
+    <tag k="ele" v="1837"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="Cul de Pet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2722825129" lat="45.0688276" lon="5.6055398">
+    <tag k="ele" v="2038"/>
+    <tag k="name" v="Rochers de l'Ours"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2744760624" lat="45.3128771" lon="6.1625082">
+    <tag k="ele" v="2775"/>
+    <tag k="fixme" v="position approximative"/>
+    <tag k="name" v="Le Grand Morétan"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2744760630" lat="45.3228575" lon="6.1465426">
+    <tag k="ele" v="2439"/>
+    <tag k="fixme" v="position approximative"/>
+    <tag k="name" v="Le Vay"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2790041769" lat="44.9322014" lon="5.5880811">
+    <tag k="ele" v="1734"/>
+    <tag k="name" v="Montagne de la Pale"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2790080733" lat="44.9272558" lon="5.5895022">
+    <tag k="ele" v="1669"/>
+    <tag k="name" v="Rocher du Cléton"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="gps"/>
+  </node>
+  <node id="2796495769" lat="45.0024886" lon="6.0041476">
+    <tag k="fixme" v="position à préciser au GPS (source Bing)"/>
+    <tag k="name" v="Petit Renaud"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2850589450" lat="45.3878195" lon="5.8053398">
+    <tag k="ele" v="1770"/>
+    <tag k="name" v="Petit Som"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2883538169" lat="45.2510406" lon="5.6704897">
+    <tag k="name" v="Le Cornillon"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2940268163" lat="45.3806715" lon="5.9050036">
+    <tag k="ele" v="1850"/>
+    <tag k="name" v="Le Grand Manti"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2947678027" lat="45.3959159" lon="6.1360249">
+    <tag k="alt_name" v="Tournetalon"/>
+    <tag k="ele" v="1920"/>
+    <tag k="name" v="Le Grand Collet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956262177" lat="45.1258501" lon="5.9025905">
+    <tag k="ele" v="2253"/>
+    <tag k="name" v="Croix de Chamrousse"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3003318"/>
+  </node>
+  <node id="2956262178" lat="45.1931277" lon="5.9937155">
+    <tag k="ele" v="2702"/>
+    <tag k="name" v="Les Trois Officiers"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956262179" lat="45.1940889" lon="5.9935248">
+    <tag k="ele" v="2675"/>
+    <tag k="name" v="Pic de la Pierre"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956262180" lat="45.1202094" lon="5.9001637">
+    <tag k="ele" v="2152"/>
+    <tag k="name" v="Rocher de la Perche"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956262181" lat="45.1978953" lon="5.9945302">
+    <tag k="ele" v="2601"/>
+    <tag k="name" v="Sommet Colomb"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956262182" lat="45.1548039" lon="5.9635657">
+    <tag k="ele" v="2727"/>
+    <tag k="name" v="Tête Noire"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956909780" lat="45.1437430" lon="5.9558929">
+    <tag k="ele" v="2603"/>
+    <tag k="name" v="Pic de Mirebel"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="2956909781" lat="45.1275592" lon="5.9560325">
+    <tag k="ele" v="2138"/>
+    <tag k="name" v="Pic de la Fare"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3000785494" lat="45.2000793" lon="5.9814898">
+    <tag k="name" v="Petit Replomb"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3015070604" lat="45.1711306" lon="5.9527056">
+    <tag k="ele" v="2692"/>
+    <tag k="name" v="Pic du Loup"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3058729009" lat="45.4077647" lon="5.9033557">
+    <tag k="ele" v="1737"/>
+    <tag k="fixme" v="check/adjust position"/>
+    <tag k="name" v="Roche de Fitta"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3082122109" lat="45.4154264" lon="5.5095351">
+    <tag k="ele" v="773"/>
+    <tag k="name" v="Mont Follet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3082122110" lat="45.4137783" lon="5.4790534">
+    <tag k="ele" v="752"/>
+    <tag k="name" v="Mont Levatel"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3082122111" lat="45.4129291" lon="5.5040473">
+    <tag k="name" v="plan du rey tour telecom"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3126794705" lat="45.0626859" lon="5.6007635">
+    <tag k="ele" v="2049"/>
+    <tag k="name" v="Roc Cornafion"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3437328"/>
+  </node>
+  <node id="3141425695" lat="45.3340746" lon="6.0195538">
+    <tag k="ele" v="1285"/>
+    <tag k="name" v="Sommet de Barley"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3141431181" lat="45.3035745" lon="6.0499667">
+    <tag k="ele" v="1926"/>
+    <tag k="name" v="Le Grand Rocher"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q3114556"/>
+  </node>
+  <node id="3141457543" lat="45.2570908" lon="6.0304448">
+    <tag k="ele" v="2124"/>
+    <tag k="name" v="Dome des Oudis"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3141457544" lat="45.2360310" lon="6.0231304">
+    <tag k="ele" v="2430"/>
+    <tag k="name" v="Dent de Bedina"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3141466926" lat="45.3015475" lon="5.9957494">
+    <tag k="ele" v="630"/>
+    <tag k="name" v="Theys"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1994"/>
+    <tag k="wikidata" v="Q1091802"/>
+    <tag k="wikipedia" v="fr:Theys"/>
+  </node>
+  <node id="3385109992" lat="45.2413038" lon="5.7440104">
+    <tag k="ele" v="1050"/>
+    <tag k="name" v="Le Quichat"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3420274894" lat="45.1112086" lon="6.1115378">
+    <tag k="name" v="Clocher de Mâcle"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3423871305" lat="45.1246699" lon="5.9065782">
+    <tag k="ele" v="2249"/>
+    <tag k="information" v="orientation_map"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS+GLONASS"/>
+    <tag k="tourism" v="information"/>
+  </node>
+  <node id="3440968975" lat="45.1336570" lon="5.9331863">
+    <tag k="ele" v="2526"/>
+    <tag k="name" v="Grand Sorbier"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3454605834" lat="45.2912663" lon="5.6576168">
+    <tag k="name" v="Rocher de Bellevue"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3456199898" lat="45.1160624" lon="5.7580479">
+    <tag k="name" v="Haute Jarrie"/>
+    <tag k="place" v="village"/>
+  </node>
+  <node id="3666867911" lat="45.3691303" lon="5.9042189">
+    <tag k="alt_name" v="Tour percée"/>
+    <tag k="ele" v="1790"/>
+    <tag k="name" v="Tour Isabelle"/>
+    <tag k="natural" v="peak"/>
+    <tag k="natural_1" v="arch"/>
+    <tag k="note" v="Arche naturelle"/>
+  </node>
+  <node id="3740133172" lat="45.0062123" lon="5.5796972">
+    <tag k="ele" v="2162"/>
+    <tag k="name" v="La Petite Sœur - Sophie"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3752498777" lat="44.9465983" lon="6.0803462">
+    <tag k="ele" v="3019"/>
+    <tag k="name" v="Tête de la Muraillette"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3761544513" lat="45.3089144" lon="5.8869054">
+    <tag k="addr:postcode" v="38660"/>
+    <tag k="alt_name" v="Saint-Hilaire"/>
+    <tag k="name" v="Saint-Hilaire-du-Touvet"/>
+    <tag k="place" v="village"/>
+    <tag k="population" v="1532"/>
+    <tag k="ref:FR:SIREN" v="213803950"/>
+    <tag k="ref:INSEE" v="38395"/>
+    <tag k="source:population" v="INSEE 2013"/>
+  </node>
+  <node id="3781976134" lat="45.2876743" lon="5.7881684">
+    <tag k="ele" v="2082"/>
+    <tag k="name" v="Chamechaude"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q2321630"/>
+    <tag k="wikipedia" v="fr:Chamechaude"/>
+  </node>
+  <node id="3838667303" lat="45.2401518" lon="6.0585091">
+    <tag k="ele" v="2714"/>
+    <tag k="name" v="Pic de l'apparence"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3838671764" lat="45.2534805" lon="6.0710103">
+    <tag k="ele" v="2342"/>
+    <tag k="name" v="Roc de Pendet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3838671765" lat="45.2221587" lon="6.0671411">
+    <tag k="ele" v="2323"/>
+    <tag k="name" v="Tête de l'Homme"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3873299344" lat="45.2340966" lon="6.0984395">
+    <tag k="ele" v="2835"/>
+    <tag k="name" v="Le Toit"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3873299345" lat="45.2266769" lon="6.0996292">
+    <tag k="ele" v="2740"/>
+    <tag k="name" v="Pic de l'Agnelin"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3873299346" lat="45.2475141" lon="6.1089161">
+    <tag k="ele" v="2912"/>
+    <tag k="name" v="Rocher Badon"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3873299347" lat="45.2776160" lon="6.1248097">
+    <tag k="ele" v="2885"/>
+    <tag k="name" v="Rocher d'Arguille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3873299348" lat="45.2691769" lon="6.1349431">
+    <tag k="ele" v="2891"/>
+    <tag k="name" v="Bec d'Arguille"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q31653094"/>
+  </node>
+  <node id="3873299349" lat="45.2806603" lon="6.1310915">
+    <tag k="ele" v="2887"/>
+    <tag k="name" v="Pic de la Grande Valloire"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3873299350" lat="45.2883260" lon="6.1321536">
+    <tag k="ele" v="2767"/>
+    <tag k="name" v="Rocher Gris"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3913183378" lat="45.2201275" lon="6.0922533">
+    <tag k="ele" v="2728"/>
+    <tag k="name" v="Pic des Eustaches"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918665857" lat="45.1872642" lon="6.1605112">
+    <tag k="ele" v="2879"/>
+    <tag k="name" v="Aiguille de Laisse"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918674653" lat="45.2167024" lon="6.1914417">
+    <tag k="ele" v="2521"/>
+    <tag k="name" v="Le Grand Perron"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918678610" lat="45.1817433" lon="6.1613689">
+    <tag k="ele" v="2997"/>
+    <tag k="name" v="Aiguille Noire"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918683020" lat="45.1796369" lon="6.1590603">
+    <tag k="ele" v="3041"/>
+    <tag k="name" v="Dôme de la Cochette"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918705992" lat="45.1682688" lon="6.1523350">
+    <tag k="ele" v="3232"/>
+    <tag k="name" v="Cimes de la Cochette"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918705993" lat="45.1683172" lon="6.1493824">
+    <tag k="ele" v="3240"/>
+    <tag k="name" v="Cimes de la Cochette"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918709493" lat="45.1630459" lon="6.1475507">
+    <tag k="ele" v="3291"/>
+    <tag k="name" v="Cimes de la Barbarate"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918714157" lat="45.1510950" lon="6.1588440">
+    <tag k="ele" v="3163"/>
+    <tag k="name" v="Cime du Petit Sauvage"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3918754573" lat="45.2201136" lon="6.1926960">
+    <tag k="ele" v="2422"/>
+    <tag k="name" v="Le Man"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3957148347" lat="45.0873935" lon="5.8377277">
+    <tag k="ele" v="1545"/>
+    <tag k="name" v="Pic de l'Œilly"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="3978316314" lat="45.1610993" lon="5.8692079">
+    <tag k="ele" v="1140"/>
+    <tag k="name" v="Montrond"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4016828091" lat="45.1285620" lon="5.9067460">
+    <tag k="ele" v="2223"/>
+    <tag k="natural" v="peak"/>
+    <tag k="source" v="GPS"/>
+  </node>
+  <node id="4021137989" lat="45.1527248" lon="6.2158337">
+    <tag k="ele" v="2470"/>
+    <tag k="name" v="Montagne de la Lauze"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4021169956" lat="45.1646220" lon="6.1804405">
+    <tag k="ele" v="2858"/>
+    <tag k="name" v="Cime de la Valette"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4021313124" lat="45.3040511" lon="6.1533855">
+    <tag k="ele" v="2826"/>
+    <tag k="name" v="Le Charmet de l'Aiguille"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4021398839" lat="45.3111713" lon="6.1537447">
+    <tag k="ele" v="2692"/>
+    <tag k="name" v="Pointe du Gleyzin"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4021422158" lat="45.3181547" lon="6.1843386">
+    <tag k="ele" v="2713"/>
+    <tag k="name" v="Pointe de l'Aup du Pont"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4021450700" lat="45.3285851" lon="6.1842042">
+    <tag k="ele" v="2469"/>
+    <tag k="name" v="Pic Sud du Merlet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4021467990" lat="45.3381629" lon="6.1929478">
+    <tag k="ele" v="2563"/>
+    <tag k="name" v="Pic Nord du Merlet"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q31393782"/>
+  </node>
+  <node id="4021489157" lat="45.3458560" lon="6.1911879">
+    <tag k="ele" v="2739"/>
+    <tag k="name" v="Pointe du Bacheux"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4080085538" lat="45.1374000" lon="5.9348000">
+    <tag k="ele" v="2482"/>
+    <tag k="name" v="Pointe de Vaudaine"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4080975072" lat="45.1403908" lon="5.9375867">
+    <tag k="ele" v="2491"/>
+    <tag k="name" v="Pointe de Jasse Bralard"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4172145189" lat="45.0393610" lon="5.9242374">
+    <tag k="ele" v="2857"/>
+    <tag k="name" v="Le Taillefer"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3514011"/>
+    <tag k="wikipedia" v="fr:Taillefer (sommet)"/>
+  </node>
+  <node id="4329707323" lat="45.1549205" lon="5.9960571">
+    <tag k="ele" v="2777"/>
+    <tag k="name" v="Le Grand Charnier"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3113554"/>
+  </node>
+  <node id="4330625420" lat="45.1469900" lon="6.0082588">
+    <tag k="ele" v="2483"/>
+    <tag k="name" v="La Grande Roche"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4332133616" lat="45.0459599" lon="6.0083561">
+    <tag k="ele" v="1938"/>
+    <tag k="name" v="Prégentil"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337060657" lat="45.1689376" lon="6.1549105">
+    <tag k="ele" v="3238"/>
+    <tag k="name" v="Cimes de la Cochette"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156065" lat="45.2445258" lon="6.1365777">
+    <tag k="ele" v="2897"/>
+    <tag k="name" v="Aiguille Saint-Phalle"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156066" lat="45.2452660" lon="6.1380905">
+    <tag k="ele" v="2885"/>
+    <tag k="name" v="Aiguille d'Olle"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156067" lat="45.2447901" lon="6.1431652">
+    <tag k="ele" v="2757"/>
+    <tag k="name" v="Aiguille Joseph Gaillard"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156068" lat="45.2475171" lon="6.1452788">
+    <tag k="ele" v="2747"/>
+    <tag k="name" v="Aiguille de la Combe"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156069" lat="45.2471092" lon="6.1486262">
+    <tag k="ele" v="2711"/>
+    <tag k="name" v="Aiguille de Capdepon"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156070" lat="45.2474823" lon="6.1461353">
+    <tag k="ele" v="2711"/>
+    <tag k="name" v="Pointe Elisabeteh"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156071" lat="45.2467088" lon="6.1564583">
+    <tag k="ele" v="2531"/>
+    <tag k="name" v="tête E des Cos"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156072" lat="45.2468750" lon="6.1535132">
+    <tag k="ele" v="2581"/>
+    <tag k="name" v="Tête centrale des Cos"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4337156073" lat="45.2471016" lon="6.1507023">
+    <tag k="ele" v="2582"/>
+    <tag k="name" v="Tête W des Cos"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4374562567" lat="45.2957355" lon="6.1464617">
+    <tag k="ele" v="2908"/>
+    <tag k="name" v="Puy Gris"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q31393985"/>
+  </node>
+  <node id="4374565723" lat="45.2414847" lon="6.1075460">
+    <tag k="ele" v="2927"/>
+    <tag k="name" v="Le Rocher Blanc"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q3437587"/>
+    <tag k="wikipedia" v="fr:Rocher Blanc"/>
+  </node>
+  <node id="4374952799" lat="44.9306737" lon="6.1061251">
+    <tag k="ele" v="3465"/>
+    <tag k="name" v="Grande Roche de la Muzelle"/>
+    <tag k="natural" v="peak"/>
+    <tag k="wikidata" v="Q2430602"/>
+    <tag k="wikipedia" v="fr:Roche de la Muzelle"/>
+  </node>
+  <node id="4417379595" lat="45.1365078" lon="5.6146781">
+    <tag k="ele" v="1474"/>
+    <tag k="name" v="Roche Rousse"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4470474466" lat="45.1644804" lon="5.9286844">
+    <tag k="ele" v="2402"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4551208567" lat="45.1515786" lon="5.9947385">
+    <tag k="ele" v="2842"/>
+    <tag k="name" v="Grande Lance d'Allemont"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4579012179" lat="45.3156447" lon="6.1502192">
+    <tag k="name" v="Pic S des Grandes Lanches"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4876350877" lat="45.2203723" lon="5.5168252">
+    <tag k="name" v="Le Cuchet"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="4883776542" lat="44.9462679" lon="5.9808420">
+    <tag k="ele" v="1520"/>
+    <tag k="name" v="Le Touret"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5009703201" lat="45.3710896" lon="5.9047046">
+    <tag k="name" v="arche miracle"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5023049594" lat="45.4157450" lon="5.5729938">
+    <tag k="ele" v="799"/>
+    <tag k="name" v="Mont Frol"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5241787245" lat="45.3114878" lon="5.8356013">
+    <tag k="ele" v="1760"/>
+    <tag k="name" v="Pravouta"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5387503275" lat="45.0105483" lon="5.8519337">
+    <tag k="name" v="crête du grand Serre 1947 m"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5424656357" lat="45.2682072" lon="5.6879446">
+    <tag k="ele" v="1300"/>
+    <tag k="name" v="Rocher de l'Église"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5463748081" lat="45.0994310" lon="6.1977640">
+    <tag k="ele" v="2322"/>
+    <tag k="name" v="Sommet de la Quarlie"/>
+    <tag k="natural" v="peak"/>
+  </node>
+  <node id="5561550221" lat="45.1971131" lon="5.8787209">
+    <tag k="name" v="Mongiron 964 m"/>
+    <tag k="natural" v="peak"/>
+  </node>
+
+</osm>
+
