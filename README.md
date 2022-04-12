@@ -153,6 +153,15 @@ docker run \
 - [Use-case after integrating Neo4j DB and Ruitor *(no sound)*](https://cloud.univ-grenoble-alpes.fr/index.php/s/PoR3cYtbbTnoEMy) *(mars 2021)*
 - [Use-case with the new choices of graphical portrayal for the location zones (no sound)](https://cloud.univ-grenoble-alpes.fr/index.php/s/a9t6iSXDM5RW5wY) *(mars 2022)*
 
+
+## Previous versions
+
+Other developments have been done on the visualisation prototype beforehand:
+
+- the version from Matthew Sreeves internship is on branch [`matthews-jul2018`](https://github.com/ANRChoucas/GASPAR/tree/matthews-jul2018)
+- the version from Jacques Gautier work is on branch [`jacquesg-jul2019`](https://github.com/ANRChoucas/GASPAR/tree/jacquesg-jul2019)
+
+
 ## Other details
 
 #### Technical overview
@@ -194,3 +203,5 @@ choucas                   <--- GASPAR interface "root" folder
 The code is provided under BSD 3-clause licence.
 
 Geospatial features in use (in `data/osm`) are coming from OpenStreetMap (credits: OpenStreetMap Contributors), the licence is the [ODbL](https://opendatacommons.org/licenses/odbl/index.html).
+
+
