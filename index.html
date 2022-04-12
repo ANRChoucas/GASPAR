@@ -1,0 +1,1034 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Choucas</title>
+  <link rel="stylesheet" href="css/choucas.css" type="text/css">
+
+  <!-- <link rel="stylesheet" href="https://openlayers.org/en/v4.6.4/css/ol.css" type="text/css">
+  <script src="https://openlayers.org/en/v4.6.4/build/ol.js" type="text/javascript"></script> -->
+  <link rel="stylesheet" href="js/ol/ol.css" type="text/css">
+  <script src="js/ol/ol.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js" type="text/javascript"></script>
+  <script src="https://epsg.io/2154.js" type="text/javascript"></script>
+  <script src="https://npmcdn.com/@turf/turf/turf.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/jquery.fancytree@2.27/dist/skin-win8/ui.fancytree.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery.fancytree@2.27/dist/jquery.fancytree-all-deps.min.js"></script>
+  <!-- <script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.js"></script> -->
+
+<script src="http://d3js.org/d3.v4.min.js"></script>
+
+
+<script src="//d3plus.org/js/d3.js"></script>
+<!-- <script src="//d3plus.org/js/dpopup_div_buffer_size_value3plus.js"></script> -->
+
+
+
+</head>
+<body>  
+<div class="filter-area">
+
+  <div class="header-bar">
+    <div class="header-content">
+      <img src="css/logo-choucas.png" alt="Choucas Logo" class="header-logo"></img>
+      <div class="header-text">Choucas</div>
+    </div>
+  </div>
+
+  <div class="filter-area-content" >
+
+    <div id="promptBar" class="instruction-bar hidden" style="display:none">Bienvenue</div>
+
+    <div class="filter-header" style="display:none">Notes</div>
+    <textarea rows="1" style="width:100%;" style="display:none">...</textarea> 
+      
+    <div class="filter-separator" style="display:none"></div>
+    <div class="filter-header" style="display:none">Scénarios de recherche</div>
+    <button id="addFilter" onclick="addFilter()" class="choucas-btn" style="display:none">Ajouter un filtre</button>
+    <button id="addHypothesis" onclick="addScenario()" class="choucas-btn" style="display:none">Ajouter un scénario</button>
+    <button id="zoomToZone" onclick="fitMapToCurrentZone()" class="choucas-btn" style="display:none">Zoom sur la zone de recherche</button>
+    
+   <div id="filterTable" style="display:none"></div>
+
+	<!-- <div id="story_tree"></div> -->
+	<div id="clue_window"></div>
+	<!-- <div class="story_tree_menu" id="story_tree_bottom_menu" style="display:none">
+            <ul>
+                <li>
+                    <a href="#" id="story_tree_bottom_menu_add_hypothesis">Ajouter hypothèse</a>
+                </li>
+                <li>
+                    <a href="#" id="story_tree_bottom_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="story_tree_menu" id="story_tree_hypothesis_menu" style="display:none">
+            <ul>
+            	<li>
+                    <a href="#" id="story_tree_hypothesis_menu_add_filter">Nouveau filtre</a>
+                </li>
+                <li>
+                    <a href="#" id="story_tree_hypothesis_menu_add_hypothesis">Ajouter sous-hypothèse</a>
+                </li>
+                <li>
+                    <a href="#" id="story_tree_hypothesis_menu_modify_hypothesis">Modifier hypothèse</a>
+                </li>
+                <li>
+                    <a href="#" id="story_tree_hypothesis_menu_show_only">Montrer la zone obtenue</a>
+                </li>
+                <li>
+                    <a href="#" id="story_tree_hypothesis_menu_suppress_hypothesis">Supprimer hypothèse</a>
+                </li>
+                <li>
+                    <a href="#" id="story_tree_hypothesis_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="story_tree_menu" id="story_tree_explain_menu" style="display:none">
+        </div> -->
+
+    <div class="filter-separator"></div>
+    <div class="filter-header">Sélectionner des objets pour le filtre actuel</div>
+    <button id="btnResetSearch" style="display: none;">&times;</button>
+    <!-- <button id="loadMapObjects" onclick="load_tree_from_choucas()" style="width: 175px; float:right;">Charger des objets OSM</button> -->
+    <button id="loadMapObjects" style="width: 175px; float:right;">Charger des objets OSM</button>
+    <span style="display:block; overflow: hidden;"><input id="treeSearchBox" class="treeSearchBox_keyboard" name="search" placeholder="Rechercher des objets de la carte..." autocomplete="off"></span>
+    <span id="matches" style="display: none;"></span>
+    <div class="wrapper">
+      <div id="treeLoadingIcon" class="overlay hidden">
+        <span><div class="loader"></div></span>
+      </div>
+      <div id="tree" class="item_tree"></div>
+    </div>
+    <!-- <button id="create_filter_from_tree_button" onclick="create_filter_from_main_tree()" class="choucas-btn">Créer hypothèse depuis l'arbre</button> -->
+    <!-- <button id="filterTreeToZone" onclick="filterTreeToCurrentZone_all()" class="choucas-btn">Filtrer l'arbre pour la zone de recherche</button> -->
+    Buffer:<input id="treeFilterToZoneBuffer" type="number" step="0.1" value="0.5" style="width:52px;"></input>
+    <!-- <button onclick="clearTreeZoneFilter()" class="choucas-btn">Effacer filtre</button> -->
+    <br/>
+
+
+    <div class="filter-separator"></div>
+    <div class="filter-header" data-toggle="collapse" data-target="#settings">Paramètres +/-</div>
+    <div id="settings" class="collapse">
+    <div class="map-style-grid">
+
+      <div class="map-style-label">Instructions:</div>
+      <div>
+        <select id="promptsEnabled" onchange="promptsToggle()">
+          <option value="Yes">Activée</option>
+          <option value="No" selected>Désactivée</option>
+        </select>
+      </div>
+
+      <div class="map-style-label">Avert. de zone calcul:</div>
+      <div><input id="zoneCalcWarning" value="5000"></input></div>
+
+      <div class="map-style-label">Carte de base:</div>
+      <div>
+        <select id="baseMapSelection" onchange="loadBaseMap()">
+          <option value="OSM">OSM</option>
+          <option value="OTM">Open Topo Map</option>
+          <option value="IGN">IGN</option>
+          <option value="IGN Satellite">IGN Satellite</option>
+          <option value="HUM">Humanitarian</option>
+          <option value="HIB">Hike Bike</option>
+          <option value="Thunderforest Cycle">Thunderforest Cycle</option>
+          <option value="Thunderforest Landscape">Thunderforest Landscape</option>
+          <option value="Thunderforest Outdoors">Thunderforest Outdoors</option>
+          
+        </select>
+      </div>
+
+      <div class="map-style-label">IGN API Key:</div>
+      <div><input id="ignAPIKey" value="" style="width:250px;"></input></div>
+
+      <div class="map-style-label">IGN API Login (opt):</div>
+      <div><input id="ignAPILogin" value="" style="width:250px;"></input></div>
+
+      <div class="map-style-label">Thunderforest API Key:</div>
+      <div><input id="thunderforestAPIKey" value="" style="width:250px;"></input></div>
+
+      <div class="map-style-label">Largeur des lignes:</div>
+      <div><input id="lineWidthOffset" type="number" step="1" value="1" style="width:52px;" onchange="refreshMapItems()"></input></div>
+
+      <div class="map-style-label">Style de zone:</div>
+      <div>
+        <select id="mostLikelyZoneMode" onchange="refreshMapItems()">
+          <option value="Outline">Avec bordures</option>
+          <option value="NoOutline">Sans bordures</option>
+        </select>
+      </div>
+
+      <div class="map-style-label">Couleur des scénarios:</div>
+      <div>
+        <select id="hypothesisNumber" onchange="changeHypothesisNumber()"></select>
+        <select id="hypothesisColor" onchange="changeHypothesisColor()"></select>
+      </div>
+
+      <div class="map-style-label" style="display:none;">Bordure des zones:</div>
+      <div style="display:none;">
+        <select id="zoneOutlineMode" onchange="refreshMapItems()">
+          <option value="Item Colour">Couleur de l'objet</option>
+          <option value="Hypothesis Colour">Couleur du scénario</option>
+        </select>
+      </div>
+
+      <div class="map-style-label" style="display:none;">Bordure des zones:</div>
+      <div style="display:none;">
+        <select id="zoneOutlineMode" onchange="refreshMapItems()">
+          <option value="Item Colour">Couleur de l'objet</option>
+          <option value="Hypothesis Colour">Couleur du scénario</option>
+        </select>
+      </div>
+
+      <button onclick="isochrone()" class="choucas-btn" style="display:none;">Isochrone</button>
+      
+    </div>
+    </div>
+
+    
+  </div>
+</div>
+
+<div class="map-area wrapper">
+
+  <div id="tutorial" class="tutorial-box-highlighted" style="display:none">
+    <button id="startExperiment" onclick="startExperiment()" class="choucas-btn">Cliquez ici pour commencer l'expérience</button>
+  </div>
+
+  <div id="map_container" class="map">
+  	<div id="1_map_container">
+  		<div id="1_map_1" class="1_map"></div>
+  	</div>
+  	<div id="2_map_container" style="display:none">
+  		<div id="2_map_1" class="2_map"></div>
+  		<div id="2_map_2" class="2_map"></div>
+  	</div>
+  	<div id="3_map_container" style="display:none">
+	  	<div class="3_map_sub_container">
+	  		<div id="3_map_1" class="3_map_main"></div>
+	  	</div>
+	  	<div class="3_map_sub_container">
+	  		<div id="3_map_2" class="3_map"></div>
+  			<div id="3_map_3" class="3_map"></div>
+	  	</div>
+  	</div>
+  	<div id="4_map_container" style="display:none">
+  		<div class="4_map_sub_container">
+  			<div id="4_map_1" class="4_map"></div>
+  			<div id="4_map_2" class="4_map"></div>
+  		</div>
+  		<div class="4_map_sub_container">
+  			<div id="4_map_3" class="4_map"></div>
+  			<div id="4_map_4" class="4_map"></div>
+  		</div>
+  	</div>
+  	
+  </div>
+
+		<div class="map_filter_menu" id="map_filter_opening_menu" style="display:none">
+			Itinéraire
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_begining_point">Point de départ</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_past_point">Point de passage</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_to_pass_point">Etape à franchir</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_destination_point">Destination</a>
+                </li>
+            </ul>
+            -------
+            <!-- <ul>
+            	<li>
+                    <a href="#" class="create_grid">create grid</a>
+                </li>
+                <li>
+                    <a href="#" class="create_grid_2">create grid 2</a>
+                </li>
+            </ul>
+            ------- -->
+            <ul>
+            	<li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_intervis_without_object">Créer zone d'intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            Dessiner zone
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_circle_feature">Zone circulaire</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_polygon_feature">Zone polygonale</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_direction_feature">Zone directionnelle</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_load_tree">Charger arbre</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_ZRI">Créer zone de recherche initiale</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="map_filter_menu" id="map_filter_opening_menu_with_feature" style="display:none">
+        	Objet
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_add_object">Ajouter comme élément de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_buffer">Créer buffer</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_isochrone">Créer isochrone</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_intervis">Créer zone d'intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            Itinéraire
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_begining_point">Point de départ</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_past_point">Point de passage</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_to_pass_point">Etape à franchir</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_destination_point">Destination</a>
+                </li>
+            </ul>
+            Dessiner zone
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_circle_feature">Zone circulaire</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_polygon_feature">Zone polygonale</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_direction_feature">Zone directionnelle</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_load_tree">Charger arbre</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_ZRI">Créer zone de recherche initiale</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="map_filter_menu" id="map_filter_opening_menu_with_trajectory_point" style="display:none">
+        	Point d'itinéraire <br>
+        	Objet
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_buffer">Créer buffer</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_isochrone">Créer isochrone</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_intervis">Créer zone d'intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            Itinéraire
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_modify_address">Modifier adresse</a>
+                </li>
+				<li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_modify_type">Modifier type</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_suppress_point">Supprimer point</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_load_tree">Charger arbre</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_ZRI">Créer zone de recherche initiale</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+		<div class="map_filter_menu" id="map_filter_opening_menu_with_object_of_interest" style="display:none">
+			Objet d'intérêt <br>
+        	Objet
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_add_object">Ajouter comme élément de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_buffer">Créer buffer</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_isochrone">Créer isochrone</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_intervis">Créer zone d'intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            Itinéraire
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_begining_point">Ajouter comme point de départ</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_past_point">Ajouter comme point de passage</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_to_pass_point">Ajouter comme étape à franchir</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_destination_point">Ajouter comme destination</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_load_tree">Charger arbre</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_ZRI">Créer zone de recherche initiale</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="map_filter_menu" id="map_filter_opening_menu_with_element_of_reference" style="display:none">
+			Objet d'intérêt <br>
+        	Objet
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_suppress_object">Supprimer comme élément de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_buffer">Créer buffer</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_isochrone">Créer isochrone</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_intervis">Créer zone d'intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            Itinéraire
+			<ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_begining_point">Ajouter comme point de départ</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_past_point">Ajouter comme point de passage</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_to_pass_point">Ajouter comme étape à franchir</a>
+                </li>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_destination_point">Ajouter comme destination</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_load_tree">Charger arbre</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_create_ZRI">Créer zone de recherche initiale</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="map_filter_menu_element map_filter_opening_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+</div>
+
+<div class="clue_window_menu" id="rank_1_clue_element_menu" style="display:none">
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_create_buffer">Créer buffer</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_create_isochrone">Créer isochrone</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_create_intervis">Créer intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_suppress_clue">Supprimer indice</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="clue_window_menu" id="rank_2_clue_element_menu" style="display:none">
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_2_clue_element_menu_create_rank_3">Créer zone de localisation probable</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_2_clue_element_menu_modify_clue">Modifier zone</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_2_clue_element_menu_suppress_clue">Supprimer zone</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_2_clue_element_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>  
+        <div class="clue_window_menu" id="rank_3_clue_element_menu" style="display:none">
+            <!-- <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_3_clue_element_menu_modify_color">Modifier couleur</a>
+                </li>
+            </ul> -->
+            <input type="color" id="rank_3_clue_element_menu_color_pickr" name="rank_3_clue_element_menu_color_pickr" value="#e66465"><br>
+            -------
+            <!-- <input type="range" id="rank_3_clue_element_menu_color_range"  min="0" max="100" value="50" step="5"> -->
+            <div id="rank_3_clue_element_menu_color_range"></div>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_3_clue_element_menu_suppress_clue">Supprimer ZLP</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_3_clue_element_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+    <div class="clue_window_menu" id="rank_1_clue_itinary_points_element_menu" style="display:none">
+            <ul>
+            	<li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_create_itinary">Créer itinéraire</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_create_buffer">Créer buffer</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_create_isochrone">Créer isochrone</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_create_intervis">Créer intervisibilité</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_create_sunmask">Créer sunmask</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+            	<li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_modify_clue">Modifier adresse</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_itinary_points_element_menu_suppress_clue">Supprimer indice</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        <div class="clue_window_menu" id="rank_1_clue_multiples_element_menu" style="display:none">
+            <ul>
+            	<li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_multiples_element_menu_chain_clue">Chainer indices</a>
+                </li>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_multiples_element_menu_suppress_clue">Supprimer indices</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="clue_window_menu_element rank_1_clue_element_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+
+	<div class="add_clue_from_tree_menu" id="add_clue_from_tree_menu_no_select" style="display:none">
+            <ul>
+            	<li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_item_as_clue_from_tree">Ajouter objet en tant qu'élément de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_buffer_from_item">Créér buffer autour de l'objet</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_isochrone_from_item">Créér isochrone autour de l'objet</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_intervis_from_item">Créér intervis à partir de l'objet</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_sunmask_from_item">Créér sunmask</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+    <div class="add_clue_from_tree_menu" id="add_clue_from_tree_menu_with_select" style="display:none">
+            <ul>
+            	<li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_item_as_clue_from_tree">Ajouter objet en tant qu'élément de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_buffer_from_item">Créér buffer autour de l'objet</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_isochrone_from_item">Créér isochrone autour de l'objet</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_intervis_from_item">Créér intervis à partir de l'objet</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_sunmask_from_item">Créér sunmask</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+            	<li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_checked_items_as_clue_from_tree">Ajouter objets cochés en tant qu'éléments de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_buffer_from_checked_items">Créér buffer autour des objets cochés</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_isochrone_from_checked_items">Créér isochrone autour des objets cochés</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_intervis_from_checked_items">Créér intervis à partir des objets cochés</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_sunmask_from_checked_items">Créér sunmask</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        
+     <div class="add_clue_from_tree_menu" id="add_clue_from_tree_menu_only_select" style="display:none">
+            <ul>
+            	<li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_checked_items_as_clue_from_tree">Ajouter objets cochés en tant qu'éléments de référence</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_buffer_from_checked_items">Créér buffer autour des objets cochés</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_isochrone_from_checked_items">Créér isochrone autour des objets cochés</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_intervis_from_checked_items">Créér intervis à partir des objets cochés</a>
+                </li>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_add_sunmask_from_checked_items">Créér sunmask</a>
+                </li>
+            </ul>
+            -------
+            <ul>
+                <li>
+                    <a href="#" class="add_clue_from_tree_menu_element add_clue_from_tree_menu_cancel">Annuler</a>
+                </li>
+            </ul>
+        </div>
+        
+     
+        
+     <div class="rank_2_parameters_div" id="rank_2_buffer_parameters" style="display:none">
+            <div id="rank_2_buffer_parameters_sliders" class="rank_2_parameters_div_inside">
+            </div>
+            <div id="rank_2_buffer_parameters_input" class="rank_2_parameters_div_inside">
+            	<input type="text" id="rank_2_buffer_parameters_input_1" class="rank_2_parameters_div_text" value="0">
+            	<input type="text" id="rank_2_buffer_parameters_input_2" class="rank_2_parameters_div_text" value="10">
+            </div>
+            <div id="rank_2_buffer_parameters_button_div" class="rank_2_parameters_div_inside">
+            	<input type="button" id="rank_2_buffer_parameters_button" class="rank_2_parameters_div_button" value="Valider">
+            </div>
+     </div>
+     
+     <div class="popup_div" id="popup_div_container" style="display:none">
+            <div id="popup_div_type_object" class="popup_div_inside">
+            	
+            </div>
+            <div id="popup_div_name_object" class="popup_div_inside">
+            </div>
+     </div>
+     
+     <div class="popup_div" id="popup_div_container_buffer_size" style="display:none">
+            <div id="popup_div_buffer_size_value" class="popup_div_inside">
+            	
+            </div>
+            km
+     </div>
+     
+     <div class="popup_div" id="popup_div_interviz_launcher" style="display:none">
+            <div>
+            	<div id="object-interviz_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic;">
+                </div>
+                <div id="ref-interviz_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic; display:none;">
+                </div>
+                <div id="type-interviz_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic; display:none;">
+                </div>
+                <div id="id-interviz_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic; display:none;">
+                </div>
+                <div id="stroke-interviz_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic; display:none;">
+                </div>
+            	<div>
+             		<p><span>Hauteur victime</span><input id="h1-input-interviz_launcher" min="0.0" type="number" step="0.1"></input></p>
+             		<p><span>Hauteur cible</span><input id="h2-input-interviz_launcher" min="0.0" type="number" step="0.1"></input></p>
+             		<p><span>Max distance (km)</span><input id="mdist-input-interviz_launcher" type="number" min="0.0" max="75" step="0.1"></input></p>
+            	</div>
+            	<div id="coords-location-interviz_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic;">
+                </div>
+                <div id="modal-error-interviz_launcher" style="background: red; display: none; color: white; font-weight: bold;">
+                 	Expected a number !
+                </div>
+            </div>
+            <div>
+                <button class="btn" id="cancel-modal-interviz_launcher">
+                    Cancel
+                </button>
+                <button class="btn btn-primary" id="close-modal-interviz_launcher">
+                    Compute
+                </button>
+            </div>
+     </div>
+     
+     <div class="popup_div" id="popup_div_sunmask_launcher" style="display:none">
+            <div>
+            	<div style="display: table-caption;">
+                    <p><span>Year</span><input id="year-input-sunmask_launcher" type="number" min="1950" max="2020" step="1"></input></p>
+                    <p><span>Month</span><input id="month-input-sunmask_launcher" type="number" min="1" max="12" step="1"></input></p>
+                    <p><span>Day</span><input id="day-input-sunmask_launcher" type="number" min="1" max="31" step="1"></input></p>
+                    <p><span>Hour</span><input id="hour-input-sunmask_launcher" type="number" min="0" max="23" step="1"></input></p>
+                    <p><span>Minute</span><input id="minute-input-sunmask_launcher" type="number" min="0" max="59" step="1"></input></p>
+                  </div>
+            	<div id="coords-location-sunmask_launcher" style="padding: 5px;font-size: 0.8em;font-style: italic; display:none;">
+                </div>
+                <div id="modal-error-sunmask_launcher" style="background: red; display: none; color: white; font-weight: bold;">
+                 	Expected a number !
+                </div>
+            </div>
+            <div>
+                <button class="btn" id="cancel-modal-sunmask_launcher">
+                    Cancel
+                </button>
+                <button class="btn btn-primary" id="close-modal-sunmask_launcher">
+                    Compute
+                </button>
+            </div>
+     </div>
+     
+     <div class="popup_div" id="popup_div_container_buffer_size" style="display:none">
+            <div id="popup_div_buffer_size_value" class="popup_div_inside">
+            	
+            </div>
+            km
+     </div>
+     
+     <div  id="map_window_manager_container">
+	     <div id="map_window_manager_container_main">
+	     	<div id="map_window_map_button_container">
+	     		<div class="map_window_map_button" id="map_window_map_button_1">
+					<div class='map_window_map_button_header' id='map_window_map_button_header_1' selected="selected">Carte 1</div>
+	     			<div class='map_window_map_button_content' id='map_window_map_button_content_1' selected="selected"></div>
+				</div>
+	     	</div>
+     	</div>
+        <div id="map_window_add_button">
+        	<img src="image/bouton_carte_1.png">
+        </div>
+     </div>
+     
+     
+     
+     <div class="popup_div" id="popup_div_add-clue-menu" style="top: 100px; right: 100px; display:none;">
+     		<div id="add-clue-menu_title">
+     			Ajouter un indice
+     		</div>
+     		<div id="add-clue-menu_content">
+            	<div id="add-clue-menu_submenu-choice-container">
+                 	<div id="add-clue-menu_interviz_submenu-choice" class="add-clue-menu_submenu-choice add-clue-menu_submenu-choice-unselected">
+                 		Voir
+	                </div>
+	                <div id="add-clue-menu_buffer_submenu-choice" class="add-clue-menu_submenu-choice add-clue-menu_submenu-choice-selected">
+	                	Proximité immédiate
+	                </div>
+	                <div id="add-clue-menu_sunmask_submenu-choice" class="add-clue-menu_submenu-choice add-clue-menu_submenu-choice-unselected">
+	                	Ombre/Soleil
+	                </div>
+	                <!-- <div id="add-clue-menu_draw_submenu-choice" class="add-clue-menu_submenu-choice add-clue-menu_submenu-choice-unselected">
+	                	Dessin
+	                </div> -->
+	                <div id="add-clue-menu_hear_submenu-choice" class="add-clue-menu_submenu-choice add-clue-menu_submenu-choice-unselected">
+	                	Entendre
+	                </div>
+	                <div id="add-clue-menu_itinary_submenu-choice" class="add-clue-menu_submenu-choice add-clue-menu_submenu-choice-unselected">
+	                	Itinéraire
+	                </div>
+                </div>
+            	<div id="add-clue-menu_submenu-container">
+            		<div id="add-clue-menu_interviz_submenu" class="add-clue-menu_submenu" style="display: none;">
+            			<div id="add-clue-menu_interviz_submenu-container_interviz-settings" class="add-clue-menu_submenu-container">
+	                		<div id="interviz_interviz-settings-div_object">
+	                			<p id="interviz_interviz-settings-text_object">La victime voit ...</p>
+	                			<input type="text" id="interviz_interviz-settings_object">
+	                		</div>
+	                		<div id="interviz_interviz-settings-div_heigth-victim">
+	                			<p id="interviz_interviz-settings-text_heigth-victim">Hauteur de la victime</p>
+	                			<input type="number" id="interviz_interviz-settings_heigth-victim">
+	                			<p class="interviz_interviz-settings-div_distance-value">m</p>
+	                		</div>
+	                		<div id="interviz_interviz-settings-div_heigth-target">
+	                			<p id="interviz_interviz-settings-text_heigth-target">Hauteur de la cible</p>
+	                			<input type="number" id="interviz_interviz-settings_heigth-target">
+	                			<p class="interviz_interviz-settings-div_distance-value">m</p>
+	                		</div>
+	                		<div id="interviz_interviz-settings-div_region-size">
+	                			<p id="interviz_interviz-settings-text_region-size">Rayon de la recherche</p>
+	                			<input type="number" id="interviz_interviz-settings_region-size">
+	                			<p class="interviz_interviz-settings-div_distance-value">km</p>
+	                		</div>
+	                	</div>
+	                </div>
+	                <div id="add-clue-menu_buffer_submenu" class="add-clue-menu_submenu" style="display: block">
+	                	
+	                	<div id="add-clue-menu_buffer_submenu-container_buffer-settings" class="add-clue-menu_submenu-container">
+	                		<div id="buffer_buffer-settings-div_object" class="buffer_buffer-settings-div">
+	                			<p id="buffer_buffer-settings-text_object">La victime est proche de ...</p>
+	                			<input type="text" id="buffer_buffer-settings_object">
+	                		</div>
+	                		<div id="buffer_buffer-settings-div_distance-min" class="buffer_buffer-settings-div">
+	                			<p id="buffer_buffer-settings-text_distance-min" class="buffer_buffer-settings-text">entre...</p>
+	                			<input type="number" id="buffer_buffer-settings_distance-min" class="buffer_buffer-settings">
+	                			<p class="buffer_buffer-settings-div_distance-value">m</p>
+	                		</div>
+	                		<div id="buffer_buffer-settings-div_distance-max" class="buffer_buffer-settings-div">
+	                			<p id="buffer_buffer-settings-text_distance-max" class="buffer_buffer-settings-text">et...</p>
+	                			<input type="number" id="buffer_buffer-settings_distance-max" class="buffer_buffer-settings">
+	                			<p class="buffer_buffer-settings-div_distance-value">m</p>
+	                		</div>
+	                		<div id="buffer_buffer-settings-div_incertitude" class="buffer_buffer-settings-div">
+	                			<p id="buffer_buffer-settings-text_incertitude" class="buffer_buffer-settings-text">Rayon d'incertitude</p>
+	                			<input type="number" id="buffer_buffer-settings_incertitude" class="buffer_buffer-settings">
+	                			<p class="buffer_buffer-settings-div_distance-value">m</p>
+	                		</div>
+	                	</div>
+	                	<hr>
+	                	<div id="add-clue-menu_buffer_submenu-container_ZLP-type" class="add-clue-menu_submenu-container">
+	                		<div>
+							  <input type="radio" id="buffer_ZLP-type_adapted-service" class="radio_buffer" value="adapted-service"
+							         checked>
+							  <label for="adapted-service">Utiliser le service adapté</label>
+							</div>
+							<div>
+							  <input type="radio" id="buffer_ZLP-type_buffer" class="radio_buffer" value="buffer">
+							  <label for="buffer">Création d'un buffer autour du(des) objet(s)</label>
+							</div>
+							<div>
+							  <input type="radio" id="buffer_ZLP-type_draw" class="radio_buffer" value="draw">
+							  <label for="draw">Dessiner la zone correspondante...</label>
+							</div>
+							<div>
+							  <input type="radio" id="buffer_ZLP-type_add-object" class="radio_buffer" value="add-object">
+							  <label for="add-object">Afficher seulement le(s) objet(s)</label>
+							</div>
+	                	</div>
+	                	<hr>
+	                	<div id="add-clue-menu_buffer_submenu-container_clue-trust" class="add-clue-menu_submenu-container">
+	                		 	<div id="buffer_clue-trust-div_trust" class="buffer_clue-trust-div">
+	                				<div class="buffer_clue-trust-text_div">
+	                				<p id="buffer_clue-trust-text_trust">Confiance</p>
+		                			</div>
+		                			<div class="buffer_clue-trust-range_div">
+		                				<input type="range" id="buffer_clue-trust-range_trust" min="0" max="2" value="2" step="1">
+		                			</div>
+		                			<div id="buffer_clue-trust-range-value_div_trust">
+		                			valeur	
+		                			</div>
+	                		 	</div>
+	                		 	<div id="buffer_clue-trust-div_time" class="buffer_clue-trust-div">
+	                		 		<div class="buffer_clue-trust-text_div">
+	                				<p id="buffer_clue-trust-text_time">Instant ou durée</p>
+		                			</div>
+		                			<div class="buffer_clue-trust-range_div">
+		                				<input type="range" id="buffer_clue-trust-range_time" min="0" max="6" value="6" step="1">
+		                			</div>
+		                			<div id="buffer_clue-trust-range-value_div_time">
+		                			valeur
+		                			</div>
+	                		 	</div>
+	                	</div>
+	                	<hr>
+	                	<div id="add-clue-menu_buffer_submenu-container_clue-content" class="add-clue-menu_submenu-container">
+	                		<p id="buffer_clue-content_title">Rappel de l'indice en langue naturelle :</p>
+	                		<p id="buffer_clue-content_value"></p>
+	                	</div>
+	                
+	                </div>
+	                <div id="add-clue-menu_sunmask_submenu" class="add-clue-menu_submenu" style="display: none;">
+	                	<div id="add-clue-menu_interviz_submenu-container_sunmask-settings" class="add-clue-menu_submenu-container">
+	                		<div id="sunmask_sunmask-settings-div_year">
+	                			<p id="sunmask_sunmask-settings-text_year">Année</p>
+	                			<input type="number" id="sunmask_sunmask-settings_year" min="1950" max="2020" step="1">
+	                		</div>
+	                		<div id="sunmask_sunmask-settings-div_month">
+	                			<p id="sunmask_sunmask-settings-text_month">Mois</p>
+	                			<input type="number" id="sunmask_sunmask-settings_month" min="1" max="12" step="1">
+	                		</div>
+	                		<div id="sunmask_sunmask-settings-div_day">
+	                			<p id="sunmask_sunmask-settings-text_day">Jour</p>
+	                			<input type="number" id="sunmask_sunmask-settings_day" min="1" max="31" step="1">
+	                		</div>
+	                		<div id="sunmask_sunmask-settings-div_hour">
+	                			<p id="sunmask_sunmask-settings-text_hour">Heure</p>
+	                			<input type="number" id="sunmask_sunmask-settings_hour" min="0" max="23" step="1">
+	                		</div>
+	                		<div id="sunmask_sunmask-settings-div_minut">
+	                			<p id="sunmask_sunmask-settings-text_minut">Minute</p>
+	                			<input type="number" id="sunmask_sunmask-settings_minut" min="0" max="59" step="1">
+	                		</div>
+	                	</div>
+	                </div>
+	                <!-- <div id="add-clue-menu_draw_submenu" class="add-clue-menu_submenu" style="display: none;">
+	                	draw
+	                </div> -->
+	                <div id="add-clue-menu_hear_submenu" class="add-clue-menu_submenu" style="display: none;">
+	                	hear
+	                </div>
+	                <div id="add-clue-menu_itinary_submenu" class="add-clue-menu_submenu" style="display: none;">
+	                	itinary
+	                </div>
+            	</div>
+                <div id="modal_error_add-clue-menu" style="background: red; display: none; color: white; font-weight: bold;">
+                 	Expected a number !
+                </div>
+            </div>
+            <div id="add-clue-menu_button">
+                <button class="btn" id="Cancel_button_add-clue-menu">
+                    Annuler
+                </button>
+                <button class="btn btn-primary" id="launch_button_add-clue-menu">
+                    Ajouter indice
+                </button>
+            </div>
+     </div>
+     
+     
+	
+
+
+<script type="module" src="js/choucas.js"></script>
+<!-- <script src="js/d3plus.js"></script> -->
+
+</body>
+</html>
