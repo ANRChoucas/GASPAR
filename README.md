@@ -182,7 +182,7 @@ Python source code follows PEP8 conventions (use `flake8` to ensure it) and Java
 #### Repository structure
 
 ```
-choucas                   <--- GASPAR interface "root" folder
+GASPAR                   <--- GASPAR interface "root" folder
 │
 ├── data
 │   └── osm               <--- Some data extracted from OSM (GeoJSON format)
